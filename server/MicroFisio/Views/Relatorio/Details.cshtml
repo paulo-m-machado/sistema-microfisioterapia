@@ -1,0 +1,20 @@
+@model MicroFisio.Models.Relatorio
+@{
+    ViewData["Title"] = "Relatório";
+}
+<div class="container mt-3">
+  <h2>Relatório</h2>
+  <dl class="row">
+    <dt class="col-sm-3">Data</dt>
+    <dd class="col-sm-9">@Model.Data.ToLocalTime().ToString("dd/MM/yyyy HH:mm")</dd>
+    <dt class="col-sm-3">Agendamento</dt>
+    <dd class="col-sm-9">@Model.AgendamentoId</dd>
+    <dt class="col-sm-3">Paciente</dt>
+    <dd class="col-sm-9">@Model.PacienteId</dd>
+  </dl>
+  <div class="card">
+    <div class="card-body">
+      <pre>@Model.Conteudo</pre>
+    </div>
+  </div>
+</div>

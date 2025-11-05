@@ -1,0 +1,166 @@
+@model MicroFisio.Models.ViewModels.AgendaWeekViewModel
+@{
+    ViewData["Title"] = "Agenda";
+    var prevStart = Model.WeekStart.AddDays(-7).ToString("yyyy-MM-dd");
+    var nextStart = Model.WeekStart.AddDays(7).ToString("yyyy-MM-dd");
+    var todayMonday = (DateTime.Today.AddDays(-(int)DateTime.Today.DayOfWeek + (int)DayOfWeek.Monday)).ToString("yyyy-MM-dd");
+    var startTime = TimeSpan.Parse(Model.DayStart);
+    var endTime = TimeSpan.Parse(Model.DayEnd);
+    var slot = TimeSpan.FromMinutes(Model.SlotMinutes);
+    var days = Enumerable.Range(0,7).Select(i => Model.WeekStart.Date.AddDays(i)).ToList();
+    var dateStr = Model.CurrentDate.ToString("yyyy-MM-dd");
+    var prevDate = Model.CurrentDate.AddDays(-1).ToString("yyyy-MM-dd");
+    var nextDate = Model.CurrentDate.AddDays(1).ToString("yyyy-MM-dd");
+    var weekStartStr = Model.WeekStart.ToString("yyyy-MM-dd");
+    var dayItemsOrdered = Model.Itens.OrderBy(i => i.DataHoraInicio).ToList();
+    var totalDayItems = dayItemsOrdered.Count;
+    var showCount = Model.Mode == "day" ? (Model.More ? totalDayItems : Math.Min(5, totalDayItems)) : 0;
+}
+<link rel="stylesheet" href="~/css/Agenda.css" />
+<div class="agenda-controls">
+  <div class="controls-left">
+    @if (Model.Mode == "week")
+    {
+      <a class="btn-secondary" asp-route-mode="week" asp-route-start="@prevStart" asp-route-tipo="@Model.TipoFilter">Anterior</a>
+      <a class="btn-ghost" asp-route-mode="week" asp-route-start="@todayMonday" asp-route-tipo="@Model.TipoFilter">Hoje</a>
+      <a class="btn-secondary" asp-route-mode="week" asp-route-start="@nextStart" asp-route-tipo="@Model.TipoFilter">Próxima</a>
+      <span class="week-label">@Model.WeekStart.ToString("dd/MM") - @Model.WeekEnd.AddDays(-1).ToString("dd/MM/yyyy")</span>
+    }
+    else
+    {
+      <a class="btn-secondary" asp-route-mode="day" asp-route-date="@prevDate" asp-route-tipo="@Model.TipoFilter">Anterior</a>
+      <a class="btn-ghost" asp-route-mode="day" asp-route-date="@DateTime.Today.ToString("yyyy-MM-dd")" asp-route-tipo="@Model.TipoFilter">Hoje</a>
+      <a class="btn-secondary" asp-route-mode="day" asp-route-date="@nextDate" asp-route-tipo="@Model.TipoFilter">Próxima</a>
+      <span class="week-label">@Model.CurrentDate.ToString("dd/MM/yyyy")</span>
+    }
+  </div>
+  <div class="controls-right">
+    <form method="get">
+      <input type="hidden" name="mode" value="@Model.Mode" />
+      @if (Model.Mode == "week")
+      { <input type="hidden" name="start" value="@weekStartStr" /> }
+      else
+      { <input type="hidden" name="date" value="@dateStr" /> }
+      <label>
+        Filtro
+        <select name="tipo" onchange="this.form.submit()">
+          @if (string.IsNullOrEmpty(Model.TipoFilter)) { <option value="" selected>Todos</option>; } else { <option value="">Todos</option>; }
+          @if (Model.TipoFilter=="avaliacao") { <option value="avaliacao" selected>Avaliações</option>; } else { <option value="avaliacao">Avaliações</option>; }
+          @if (Model.TipoFilter=="consulta") { <option value="consulta" selected>Consultas</option>; } else { <option value="consulta">Consultas</option>; }
+          @if (Model.TipoFilter=="retorno") { <option value="retorno" selected>Retornos</option>; } else { <option value="retorno">Retornos</option>; }
+        </select>
+      </label>
+    </form>
+    @if (Model.Mode == "week")
+    {
+      <a class="btn-secondary" asp-route-mode="day" asp-route-date="@dateStr" asp-route-tipo="@Model.TipoFilter">Ver dia</a>
+    }
+    else
+    {
+      <a class="btn-secondary" asp-route-mode="week" asp-route-start="@weekStartStr" asp-route-tipo="@Model.TipoFilter">Ver semana</a>
+    }
+    <a class="btn-primary" asp-action="Create">Agendar</a>
+  </div>
+</div>
+
+@if (Model.Mode == "day")
+{
+  <section class="agenda-day">
+    <ul class="agenda-day-list">
+      @if (totalDayItems == 0)
+      {
+        <li class="agenda-day-empty">Sem agendamentos para este dia.</li>
+      }
+      else
+      {
+        var idx = 0;
+        foreach (var item in dayItemsOrdered)
+        {
+            if (idx >= showCount) { break; }
+            var css = (item.Status ?? "agendada").ToLowerInvariant();
+            var nome = Model.PacienteNomes.ContainsKey(item.PacienteId) ? Model.PacienteNomes[item.PacienteId] : item.PacienteId;
+            var hora = item.DataHoraInicio.ToLocalTime().ToString("HH:mm");
+            if (css == "concluida" && !string.IsNullOrEmpty(item.RelatorioId))
+            {
+                <li class="agenda-day-item @css">
+                  <a asp-controller="Relatorio" asp-action="Details" asp-route-id="@item.RelatorioId">
+                    <span class="time">@hora</span>
+                    <span class="title">@item.Tipo - @nome</span>
+                  </a>
+                </li>
+            }
+            else
+            {
+                <li class="agenda-day-item @css">
+                  <div>
+                    <span class="time">@hora</span>
+                    <span class="title">@item.Tipo - @nome</span>
+                  </div>
+                </li>
+            }
+            idx++;
+        }
+      }
+    </ul>
+    <div class="agenda-day-actions">
+      @if (!Model.More && totalDayItems > showCount)
+      {
+        <a class="btn-secondary" asp-route-mode="day" asp-route-date="@dateStr" asp-route-tipo="@Model.TipoFilter" asp-route-more="true">Ver mais</a>
+      }
+      else if (Model.More && totalDayItems > 5)
+      {
+        <a class="btn-secondary" asp-route-mode="day" asp-route-date="@dateStr" asp-route-tipo="@Model.TipoFilter" asp-route-more="false">Ver menos</a>
+      }
+    </div>
+  </section>
+}
+else
+{
+  <div class="agenda-grid-wrap">
+    <div class="table-wrap">
+      <table id="agendaGrid">
+        <thead>
+          <tr id="agendaHeaderRow">
+            <th class="times-col">Horários</th>
+            @foreach (var d in days)
+            {
+              var cls = d.Date == DateTime.Today.Date ? "today" : "";
+              <th class="@cls">@d.ToString("ddd\n dd/MM")</th>
+            }
+          </tr>
+        </thead>
+        <tbody id="agendaBody">
+          @for (var t = startTime; t < endTime; t = t.Add(slot))
+          {
+              <tr>
+                  <td class="times-col">@DateTime.Today.Date.Add(t).ToString("HH:mm")</td>
+                  @foreach (var d in days)
+                  {
+                      var slotStart = d.Date.Add(t);
+                      var item = Model.Itens.FirstOrDefault(i => i.DataHoraInicio == slotStart);
+                      var todayCls = d.Date == DateTime.Today.Date ? "today" : string.Empty;
+                      <td class="@todayCls">
+                          <div class="slot">
+                              @if (item != null)
+                              {
+                                  var css = (item.Status ?? "agendada").ToLowerInvariant();
+                                  var nome = Model.PacienteNomes.ContainsKey(item.PacienteId) ? Model.PacienteNomes[item.PacienteId] : item.PacienteId;
+                                  if (css == "concluida" && !string.IsNullOrEmpty(item.RelatorioId))
+                                  {
+                                      <a class="event @css" asp-controller="Relatorio" asp-action="Details" asp-route-id="@item.RelatorioId">@item.Tipo - @nome</a>
+                                  }
+                                  else
+                                  {
+                                      <div class="event @css">@item.Tipo - @nome</div>
+                                  }
+                              }
+                          </div>
+                      </td>
+                  }
+              </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  </div>
+}
