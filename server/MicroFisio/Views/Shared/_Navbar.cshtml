@@ -1,3 +1,6 @@
+@{
+    var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+}
 <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
     <div class="container-fluid">
         <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MicroFisio</a>
@@ -8,10 +11,10 @@
         <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
             <ul class="navbar-nav flex-grow-1">
                 <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Início</a>
+                    <a class="nav-link text-dark @(currentController=="Home"?"active":"")" asp-area="" asp-controller="Home" asp-action="Index">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-controller="Agenda" asp-action="Index" asp-route-mode="day">Agenda</a>
+                    <a class="nav-link text-dark @(currentController=="Agenda"?"active":"")" asp-area="" asp-controller="Agenda" asp-action="Index" asp-route-mode="day">Agenda</a>
                 </li>
             </ul>
         </div>

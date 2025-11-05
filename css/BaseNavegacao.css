@@ -23,10 +23,10 @@ body {
 }
 
 .main-container {
-    width: 96%;
-    max-width: 1400px;
-    margin: 0 auto; /* Centraliza o contêiner principal */
-    padding-top: 20px;
+    width: 100%;
+    max-width: none; /* Tela cheia */
+    margin: 0; /* Sem margens laterais */
+    padding: 20px 12px 0 12px; /* leve respiro nas bordas */
 }
 
 /* --- CABEÇALHO (HEADER) --- */
@@ -128,10 +128,7 @@ button:active, .btn-primary:active, .btn-secondary:active, .btn-ghost:active {
 }
 
 @media (max-width: 600px) {
-  .main-container {
-    width: 94%;
-    padding-top: 12px;
-  }
+  .main-container { width: 100%; padding-top: 12px; padding-left: 10px; padding-right: 10px; }
   .nav-link a {
     padding: 8px 10px;
   }

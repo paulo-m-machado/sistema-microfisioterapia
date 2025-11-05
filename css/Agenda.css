@@ -86,3 +86,23 @@
 .agenda-day-item a { text-decoration: none; color: inherit; display: flex; align-items: center; gap: 10px; }
 .agenda-day-empty { color: #64748B; padding: 12px; background: #F8FAFC; border: 1px dashed #E5E7EB; border-radius: 8px; }
 .agenda-day-actions { margin-top: 10px; }
+
+/* Ajustes extras de responsividade e legibilidade */
+.btn-primary, .btn-secondary, .btn-ghost { font-size: 14px; line-height: 1.2; min-height: 38px; }
+.agenda-form-card h2 { font-size: 18px; letter-spacing: 0.2px; }
+.week-label { font-size: 14px; }
+
+@media (max-width: 900px) {
+  .agenda-controls { flex-direction: column; align-items: stretch; gap: 10px; }
+  .controls-left, .controls-right { width: 100%; justify-content: space-between; }
+  .controls-right { flex-wrap: wrap; gap: 10px; }
+  .controls-right label { flex: 1 1 140px; min-width: 140px; }
+}
+
+@media (max-width: 600px) {
+  .week-label { width: 100%; margin-top: 6px; text-align: center; }
+  .agenda-day-item { padding: 12px; }
+  .agenda-day-item .time { width: 64px; }
+  .btn-primary, .btn-secondary, .btn-ghost { min-height: 42px; font-size: 15px; }
+  .controls-right { gap: 8px; }
+}
