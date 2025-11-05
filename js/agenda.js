@@ -161,7 +161,7 @@
     if(list.length === 0){
       const li = document.createElement('li');
       li.className = 'agenda-day-empty';
-      li.textContent = 'Nenhum agendamento para hoje.';
+      li.textContent = 'Não há atendimentos hoje. Que tal verificar os próximos dias?';
       ul.appendChild(li);
       if(els.btnVerMais) els.btnVerMais.style.display = 'none';
       if(els.btnVerMenos) els.btnVerMenos.style.display = 'none';
@@ -175,6 +175,7 @@
       li.dataset.id = c.id;
       const a = document.createElement('a');
       a.href = '#';
+      a.setAttribute('aria-label', 'Abrir agendamento');
       const time = document.createElement('span');
       time.className = 'time';
       time.textContent = c.hora;

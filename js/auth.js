@@ -43,7 +43,11 @@
     if(isLoggedIn()){
       a.textContent='Sair';
       a.href='#';
-      a.addEventListener('click', function(e){ e.preventDefault(); logout(); });
+      a.setAttribute('aria-label','Sair da aplicação');
+      a.addEventListener('click', function(e){
+        e.preventDefault();
+        if(confirm('Deseja realmente sair?')) logout();
+      });
     } else {
       a.textContent='Login';
       a.href='login.html';

@@ -2,18 +2,17 @@
 /* --- ÁREA PRINCIPAL (MAIN) --- */
 .content-area {
     padding: 20px;
-    background-color: var(--cor-texto-claro); /* Fundo branco, como no mockup */
+    background-color: #f7f7f7; /* Fundo cinza suave para diferenciar seções */
     border: var(--borda-padrao);
     border-top: none; /* Remove a borda no topo para conectar com o header */
 }
 
 .info-rapidas-box {
-    background-color: #ffffff; /* Fundo branco */
+    background-color: #ffffff; /* Card */
     border: var(--borda-padrao);
-    min-height: 250px; /* Altura aproximada do bloco branco */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+    padding: 16px;
     margin-bottom: 20px;
 }
 
@@ -44,23 +43,53 @@
     display: flex;
     gap: 15px; /* Espaço entre os blocos */
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .bloco-item {
-    flex: 1; /* Faz com que todos tenham a mesma largura */
+    flex: 1;
     min-height: 100px;
-    background-color: #f0f8ff; /* Um azul/cinza bem clarinho */
+    background-color: #fff; /* Card */
     border: var(--borda-padrao);
-    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    padding: 20px;
     text-align: center;
     display: flex;
+    flex-direction: column;
+    gap: 12px;
     justify-content: center;
     align-items: center;
-    font-size: 0.9em;
+    font-size: 0.95em;
     color: var(--cor-texto-escuro);
-    line-height: 1.4;
-    border-radius: 5px;
+    line-height: 1.5;
+    transition: transform 0.2s ease-in-out;
 }
+
+.bloco-item:hover { transform: translateY(-3px); }
+
+/* Card utilitário reutilizável */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 15px 0;
+  transition: transform 0.2s ease-in-out;
+}
+.card:hover { transform: translateY(-3px); }
+
+/* Mini calendário (Home > Informação extra) */
+.mini-cal { width: 100%; max-width: 320px; }
+.mini-cal-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.mini-cal-label { font-weight: 700; color: #334155; text-transform: capitalize; }
+.mini-cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
+.mini-cal-grid .dow { text-align: center; font-size: 12px; color: #64748B; font-weight: 600; }
+.mini-cal-days { display: contents; }
+.mini-cal-day { text-align: center; background: #fff; border: 1px solid #E5E7EB; border-radius: 8px; padding: 6px 0; font-size: 13px; color: #0f172a; }
+.mini-cal-day.is-other-month { color: #94A3B8; background: #F8FAFC; }
+.mini-cal-day.is-today { border-color: var(--cor-secundaria); background: #ECFEFF; font-weight: 700; color: #0F766E; }
+.mini-cal-day:hover { background: #F1F5F9; }
 
 @media (max-width: 900px) {
   .content-area { padding: 16px; }
