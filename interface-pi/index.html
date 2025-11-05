@@ -8,6 +8,7 @@
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="../css/BaseNavegacao.css">
      <link rel="stylesheet" href="../css/AreaConteudoMain.css">
+     <link rel="stylesheet" href="../css/Agenda.css">
 </head>
 <body>
 
@@ -20,10 +21,6 @@
           </div>
             <nav class="nav-links">
                 <div class="nav-link"><a href="index.html">Inicio</a></div>
-                <div class="nav-link"><a href="pacientes.html">Pacientes</a></div>
-                <div class="nav-link"><a href="anamnese.html">Anamnese</a></div>
-                <div class="nav-link"><a href="profissional.html">Profissional</a></div>
-                <div class="nav-link"><a href="consultas.html">Consultas</a></div>
                 <div class="nav-link"><a href="agenda.html">Agendamento</a></div>
             </nav>
             <a href="login.html" id="authAction" class="login-btn">Login</a>
@@ -33,15 +30,28 @@
 
             <section class="info-rapidas-box">
                 <h2>Informações Rápidas</h2>
+                <div class="agenda-hoje-card">
+                    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
+                        <h3>Agenda de hoje</h3>
+                        <span id="homeDayLabel" class="week-label"></span>
+                    </div>
+                    <ul id="homeAgendaList" class="agenda-day-list"></ul>
+                    <div class="agenda-day-actions">
+                        <button id="homeVerMais" class="btn-secondary" style="display:none;">Ver mais</button>
+                        <button id="homeVerMenos" class="btn-secondary" style="display:none;">Ver menos</button>
+                    </div>
+                </div>
             </section>
 
 
             <section class="blocos-inferiores">
                 <div class="bloco-item">
-                    INFORMAÇÕES - ATENDIMENTO
+                    <h3>Informações de atendimento</h3>
+                    <a href="pacientes.html" class="btn-primary">Cadastrar Paciente</a>
                 </div>
                 <div class="bloco-item">
-                    INFORMACAO EXTRA
+                    <h3>Informação extra</h3>
+                    <a href="anamnese.html" class="btn-secondary">Anamnese</a>
                 </div>
                 <div class="bloco-item">
                     INFORMACAO EXTRA
@@ -50,7 +60,45 @@
 
         </main>
     </div>
- 
+ <script>
+ (function(){
+   'use strict';
+   const CONSULTAS_KEY = 'consultas';
+   function loadConsultas(){ try{ const raw=localStorage.getItem(CONSULTAS_KEY); const arr= raw?JSON.parse(raw):[]; return Array.isArray(arr)?arr:[]; }catch{return []} }
+   function formatDateYYYYMMDD(d){ const y=d.getFullYear(); const m=String(d.getMonth()+1).padStart(2,'0'); const dd=String(d.getDate()).padStart(2,'0'); return `${y}-${m}-${dd}`; }
+   function formatBR(d){ return d.toLocaleDateString('pt-BR'); }
+   function toCssClass(s){ return String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\s+/g,'-'); }
+   const ul = document.getElementById('homeAgendaList');
+   if(!ul) return;
+   const lbl = document.getElementById('homeDayLabel');
+   const btnMais = document.getElementById('homeVerMais');
+   const btnMenos = document.getElementById('homeVerMenos');
+   let more = false;
+   const today = new Date();
+   if(lbl) lbl.textContent = formatBR(today);
+   function render(){
+     const todayStr = formatDateYYYYMMDD(today);
+     const list = loadConsultas().filter(c => c.status!=='Cancelada' && c.data===todayStr).sort((a,b)=> String(a.hora||'').localeCompare(String(b.hora||'')));
+     ul.innerHTML='';
+     if(list.length===0){ const li=document.createElement('li'); li.className='agenda-day-empty'; li.textContent='Nenhum agendamento para hoje.'; ul.appendChild(li); if(btnMais) btnMais.style.display='none'; if(btnMenos) btnMenos.style.display='none'; return; }
+     const max = more ? list.length : Math.min(5, list.length);
+     for(let i=0;i<max;i++){
+       const c=list[i];
+       const li=document.createElement('li');
+       li.className = `agenda-day-item ${toCssClass(c.status)}`;
+       const a=document.createElement('a'); a.href='agenda.html';
+       const time=document.createElement('span'); time.className='time'; time.textContent=c.hora;
+       const title=document.createElement('span'); title.className='title';
+       const nm = c.paciente||'Consulta'; const tipo = c.tipo?` • ${c.tipo}`:''; title.textContent=`${nm}${tipo}`;
+       a.appendChild(time); a.appendChild(title); li.appendChild(a); ul.appendChild(li);
+     }
+     if(list.length>5){ if(btnMais) btnMais.style.display = more?'none':'inline-block'; if(btnMenos) btnMenos.style.display = more?'inline-block':'none'; } else { if(btnMais) btnMais.style.display='none'; if(btnMenos) btnMenos.style.display='none'; }
+   }
+   if(btnMais) btnMais.addEventListener('click', function(){ more=true; render(); });
+   if(btnMenos) btnMenos.addEventListener('click', function(){ more=false; render(); });
+   render();
+ })();
+ </script>
   <script src="../js/auth.js"></script>
   <script src="../js/pwa.js"></script>
 </body>

@@ -74,3 +74,15 @@
   .slot { height: 40px; }
   .form-grid { grid-template-columns: 1fr; }
 }
+
+.agenda-day { margin-top: 12px; }
+.agenda-day-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.agenda-day-item { background: #fff; border: 1px solid #E5E7EB; border-radius: 8px; padding: 10px 12px; display: flex; align-items: center; gap: 10px; }
+.agenda-day-item .time { font-weight: 700; color: #0f172a; width: 56px; }
+.agenda-day-item .title { color: #334155; }
+.agenda-day-item.agendada { border-color: #BAE6FD; background: #E0F2FE; }
+.agenda-day-item.concluida { border-color: #BBF7D0; background: #DCFCE7; }
+.agenda-day-item.cancelada { border-color: #FECACA; background: #FEE2E2; }
+.agenda-day-item a { text-decoration: none; color: inherit; display: flex; align-items: center; gap: 10px; }
+.agenda-day-empty { color: #64748B; padding: 12px; background: #F8FAFC; border: 1px dashed #E5E7EB; border-radius: 8px; }
+.agenda-day-actions { margin-top: 10px; }

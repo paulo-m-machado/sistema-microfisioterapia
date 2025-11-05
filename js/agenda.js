@@ -7,9 +7,12 @@
   const els = {};
   const state = {
     weekStart: startOfWeek(new Date()), // Monday
+    currentDate: new Date(),
     dayStart: '08:00',
     dayEnd: '18:00',
     slotMinutes: 30,
+    mode: 'day',
+    more: false,
   };
 
   function startOfWeek(d){
@@ -146,6 +149,73 @@
     }
   }
 
+  function renderDayList(){
+    const d = state.currentDate;
+    if(els.dayLabel) els.dayLabel.textContent = formatBR(d);
+    const list = loadConsultas()
+      .filter(c => c.status !== 'Cancelada' && c.data === formatDateYYYYMMDD(d))
+      .sort((a,b) => String(a.hora||'').localeCompare(String(b.hora||'')));
+    const ul = els.agendaDayList;
+    if(!ul) return;
+    ul.innerHTML = '';
+    if(list.length === 0){
+      const li = document.createElement('li');
+      li.className = 'agenda-day-empty';
+      li.textContent = 'Nenhum agendamento para hoje.';
+      ul.appendChild(li);
+      if(els.btnVerMais) els.btnVerMais.style.display = 'none';
+      if(els.btnVerMenos) els.btnVerMenos.style.display = 'none';
+      return;
+    }
+    const max = state.more ? list.length : Math.min(5, list.length);
+    for(let i=0;i<max;i++){
+      const c = list[i];
+      const li = document.createElement('li');
+      li.className = `agenda-day-item ${toCssClass(c.status)}`;
+      li.dataset.id = c.id;
+      const a = document.createElement('a');
+      a.href = '#';
+      const time = document.createElement('span');
+      time.className = 'time';
+      time.textContent = c.hora;
+      const title = document.createElement('span');
+      title.className = 'title';
+      const nm = c.paciente ? c.paciente : 'Consulta';
+      const tipo = c.tipo ? ` • ${c.tipo}` : '';
+      title.textContent = `${nm}${tipo}`;
+      a.appendChild(time);
+      a.appendChild(title);
+      li.appendChild(a);
+      ul.appendChild(li);
+    }
+    if(list.length > 5){
+      if(els.btnVerMais) els.btnVerMais.style.display = state.more ? 'none' : 'inline-block';
+      if(els.btnVerMenos) els.btnVerMenos.style.display = state.more ? 'inline-block' : 'none';
+    } else {
+      if(els.btnVerMais) els.btnVerMais.style.display = 'none';
+      if(els.btnVerMenos) els.btnVerMenos.style.display = 'none';
+    }
+  }
+
+  function showMode(mode){
+    const m = mode === 'week' ? 'week' : 'day';
+    state.mode = m;
+    if(m === 'day'){
+      if(els.agendaWeekSection) els.agendaWeekSection.style.display = 'none';
+      if(els.agendaDaySection) els.agendaDaySection.style.display = '';
+      if(els.btnViewDay) els.btnViewDay.className = 'btn-secondary';
+      if(els.btnViewWeek) els.btnViewWeek.className = 'btn-ghost';
+      renderDayList();
+    } else {
+      state.weekStart = startOfWeek(state.currentDate);
+      if(els.agendaDaySection) els.agendaDaySection.style.display = 'none';
+      if(els.agendaWeekSection) els.agendaWeekSection.style.display = '';
+      if(els.btnViewDay) els.btnViewDay.className = 'btn-ghost';
+      if(els.btnViewWeek) els.btnViewWeek.className = 'btn-secondary';
+      renderGrid();
+    }
+  }
+
   function fillForm(model){
     els.consultaId.value = model.id || '';
     if(model.pacienteId){ els.agendaPaciente.value = model.pacienteId; }
@@ -225,7 +295,7 @@
     if(idx>=0) list[idx] = model; else list.push(model);
     saveConsultas(list);
     clearForm();
-    renderGrid();
+    if(state.mode==='week') renderGrid(); else renderDayList();
   }
 
   function handleCancelEdit(){ clearForm(); }
@@ -238,7 +308,7 @@
     const idx = list.findIndex(x=>x.id===id);
     if(idx>=0){ list[idx].status = 'Cancelada'; saveConsultas(list); }
     clearForm();
-    renderGrid();
+    if(state.mode==='week') renderGrid(); else renderDayList();
   }
 
   function init(){
@@ -264,6 +334,18 @@
     els.dayEnd = document.getElementById('dayEnd');
     els.slotMinutes = document.getElementById('slotMinutes');
 
+    els.agendaDaySection = document.getElementById('agendaDaySection');
+    els.agendaWeekSection = document.getElementById('agendaWeekSection');
+    els.agendaDayList = document.getElementById('agendaDayList');
+    els.btnVerMais = document.getElementById('btnVerMais');
+    els.btnVerMenos = document.getElementById('btnVerMenos');
+    els.dayLabel = document.getElementById('dayLabel');
+    els.btnDayPrev = document.getElementById('btnDayPrev');
+    els.btnDayNext = document.getElementById('btnDayNext');
+    els.btnDayToday = document.getElementById('btnDayToday');
+    els.btnViewDay = document.getElementById('btnViewDay');
+    els.btnViewWeek = document.getElementById('btnViewWeek');
+
     populatePacientesSelect();
 
     els.agendaBody.addEventListener('click', handleSlotClick);
@@ -275,17 +357,40 @@
     els.btnNext.addEventListener('click', function(){ state.weekStart = addDays(state.weekStart, 7); renderGrid(); });
     els.btnToday.addEventListener('click', function(){ state.weekStart = startOfWeek(new Date()); renderGrid(); });
 
-    els.dayStart.addEventListener('change', function(){ state.dayStart = this.value || '08:00'; renderGrid(); });
-    els.dayEnd.addEventListener('change', function(){ state.dayEnd = this.value || '18:00'; renderGrid(); });
-    els.slotMinutes.addEventListener('change', function(){ state.slotMinutes = parseInt(this.value||'30',10); renderGrid(); });
+    els.dayStart.addEventListener('change', function(){ state.dayStart = this.value || '08:00'; if(state.mode==='week'){ renderGrid(); } });
+    els.dayEnd.addEventListener('change', function(){ state.dayEnd = this.value || '18:00'; if(state.mode==='week'){ renderGrid(); } });
+    els.slotMinutes.addEventListener('change', function(){ state.slotMinutes = parseInt(this.value||'30',10); if(state.mode==='week'){ renderGrid(); } });
+
+    if(els.btnViewDay) els.btnViewDay.addEventListener('click', function(){ showMode('day'); });
+    if(els.btnViewWeek) els.btnViewWeek.addEventListener('click', function(){ showMode('week'); });
+
+    if(els.btnDayPrev) els.btnDayPrev.addEventListener('click', function(){ state.currentDate = addDays(state.currentDate, -1); renderDayList(); });
+    if(els.btnDayNext) els.btnDayNext.addEventListener('click', function(){ state.currentDate = addDays(state.currentDate, 1); renderDayList(); });
+    if(els.btnDayToday) els.btnDayToday.addEventListener('click', function(){ state.currentDate = new Date(); renderDayList(); });
+
+    if(els.btnVerMais) els.btnVerMais.addEventListener('click', function(){ state.more = true; renderDayList(); });
+    if(els.btnVerMenos) els.btnVerMenos.addEventListener('click', function(){ state.more = false; renderDayList(); });
+
+    if(els.agendaDayList) els.agendaDayList.addEventListener('click', function(e){
+      const link = e.target.closest('a');
+      if(!link) return;
+      e.preventDefault();
+      const li = link.closest('li');
+      const id = li && li.dataset.id;
+      if(!id) return;
+      const c = loadConsultas().find(x => x.id === id);
+      if(c) fillForm(c);
+    });
 
     // Init state from inputs
     state.dayStart = els.dayStart.value || state.dayStart;
     state.dayEnd = els.dayEnd.value || state.dayEnd;
     state.slotMinutes = parseInt(els.slotMinutes.value||state.slotMinutes,10);
 
-    renderGrid();
+    state.currentDate = new Date();
+    showMode('day');
   }
 
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();
+
