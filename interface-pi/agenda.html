@@ -32,9 +32,7 @@
           <span id="weekLabel" class="week-label"></span>
         </div>
         <div class="controls-right">
-          <a href="#agendaForm" class="btn-primary" aria-label="Novo agendamento">Novo agendamento</a>
           <div class="mode-switch" style="display:flex; gap:8px; align-items:center;">
-            <button id="btnViewDay" class="btn-secondary">Ver dia</button>
             <button id="btnViewWeek" class="btn-ghost">Ver semana</button>
           </div>
           <label>
@@ -62,8 +60,9 @@
             <input type="hidden" id="consultaId" />
             <div class="form-grid">
               <div class="form-field">
-                <label for="agendaPaciente">Paciente</label>
-                <select id="agendaPaciente"></select>
+                <label for="agendaPacienteSearch">Paciente</label>
+                <input id="agendaPacienteSearch" type="search" list="pacientesList" placeholder="Pesquisar paciente" />
+                <datalist id="pacientesList"></datalist>
               </div>
               <div class="form-field">
                 <label for="agendaData">Data</label>
@@ -76,7 +75,6 @@
               <div class="form-field">
                 <label for="agendaTipo">Tipo</label>
                 <select id="agendaTipo">
-                  <option value="Avaliação">Avaliação</option>
                   <option value="Consulta">Consulta</option>
                   <option value="Retorno">Retorno</option>
                 </select>
@@ -117,7 +115,7 @@
         </div>
       </section>
 
-      <section class="agenda-grid-wrap" id="agendaWeekSection">
+      <section class="agenda-grid-wrap" id="agendaWeekSection" style="display:none;">
         <div class="table-wrap">
           <table id="agendaGrid">
             <thead>

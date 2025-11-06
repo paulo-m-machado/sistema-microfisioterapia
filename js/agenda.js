@@ -11,7 +11,7 @@
     dayStart: '08:00',
     dayEnd: '18:00',
     slotMinutes: 30,
-    mode: 'day',
+    mode: 'none',
     more: false,
   };
 
@@ -44,21 +44,27 @@
     try{ const raw=localStorage.getItem(PACIENTES_KEY); const arr= raw?JSON.parse(raw):[]; return Array.isArray(arr)?arr:[]; }catch{return []}
   }
 
-  function populatePacientesSelect(){
+  function populatePacientesDatalist(){
+    if(!els.pacientesList) return;
     const pacientes = loadPacientes();
-    els.agendaPaciente.innerHTML = '';
-    const placeholder = document.createElement('option');
-    placeholder.value = '';
-    placeholder.textContent = 'Selecione um paciente';
-    placeholder.disabled = true;
-    placeholder.selected = true;
-    els.agendaPaciente.appendChild(placeholder);
+    els.pacientesList.innerHTML = '';
     pacientes.forEach(p => {
       const opt = document.createElement('option');
-      opt.value = p.id;
-      opt.textContent = p.nome;
-      els.agendaPaciente.appendChild(opt);
+      opt.value = p.nome;
+      els.pacientesList.appendChild(opt);
     });
+  }
+
+  function findPacienteByTyped(typed){
+    const pacientes = loadPacientes();
+    let match = pacientes.find(p => p.id === typed);
+    if(!match){
+      const q = String(typed||'').toLowerCase();
+      match = pacientes.find(p=> p.nome && p.nome.toLowerCase()===q)
+           || pacientes.find(p=> p.nome && p.nome.toLowerCase().startsWith(q))
+           || pacientes.find(p=> p.nome && p.nome.toLowerCase().includes(q));
+    }
+    return match;
   }
 
   function timeToMinutes(t){
@@ -219,10 +225,10 @@
 
   function fillForm(model){
     els.consultaId.value = model.id || '';
-    if(model.pacienteId){ els.agendaPaciente.value = model.pacienteId; }
+    if(els.agendaPacienteSearch){ els.agendaPacienteSearch.value = model.paciente || ''; }
     els.agendaData.value = model.data || '';
     els.agendaHora.value = model.hora || '';
-    els.agendaTipo.value = model.tipo || 'Avaliação';
+    els.agendaTipo.value = model.tipo || 'Consulta';
     els.agendaStatus.value = model.status || 'Agendada';
     els.agendaObs.value = model.observacoes || '';
 
@@ -265,9 +271,10 @@
 
   function handleSubmit(e){
     e.preventDefault();
-    const pacientes = loadPacientes();
-    const pacienteId = els.agendaPaciente.value;
-    const paciente = (pacientes.find(p=>p.id===pacienteId)||{}).nome || '';
+    const typed = (els.agendaPacienteSearch && els.agendaPacienteSearch.value || '').trim();
+    const match = findPacienteByTyped(typed);
+    const pacienteId = match ? match.id : '';
+    const paciente = match ? match.nome : '';
 
     const model = {
       id: els.consultaId.value || uid(),
@@ -282,7 +289,7 @@
     };
 
     if(!model.pacienteId || !model.data || !model.hora){
-      alert('Selecione o paciente e preencha data e hora.');
+      alert('Selecione o paciente (digite e escolha da lista) e preencha data e hora.');
       return;
     }
 
@@ -315,7 +322,8 @@
   function init(){
     els.agendaForm = document.getElementById('agendaForm');
     els.consultaId = document.getElementById('consultaId');
-    els.agendaPaciente = document.getElementById('agendaPaciente');
+    els.agendaPacienteSearch = document.getElementById('agendaPacienteSearch');
+    els.pacientesList = document.getElementById('pacientesList');
     els.agendaData = document.getElementById('agendaData');
     els.agendaHora = document.getElementById('agendaHora');
     els.agendaTipo = document.getElementById('agendaTipo');
@@ -347,7 +355,7 @@
     els.btnViewDay = document.getElementById('btnViewDay');
     els.btnViewWeek = document.getElementById('btnViewWeek');
 
-    populatePacientesSelect();
+    populatePacientesDatalist();
 
     els.agendaBody.addEventListener('click', handleSlotClick);
     els.agendaForm.addEventListener('submit', handleSubmit);
@@ -389,7 +397,6 @@
     state.slotMinutes = parseInt(els.slotMinutes.value||state.slotMinutes,10);
 
     state.currentDate = new Date();
-    showMode('day');
   }
 
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', init); else init();
