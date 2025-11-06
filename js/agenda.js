@@ -106,7 +106,12 @@
 
   function findConsultaAt(dateStr, timeStr){
     const list = loadConsultas();
-    return list.find(c => c.data === dateStr && c.hora === timeStr && c.status !== 'Cancelada');
+    const step = +state.slotMinutes || 30;
+    const base = timeToMinutes(timeStr);
+    return list.find(c => c.data === dateStr && c.status !== 'Cancelada' && (function(){
+      const m = timeToMinutes(c.hora);
+      return m >= base && m < base + step;
+    })());
   }
 
   function renderGrid(){
@@ -288,6 +293,14 @@
       createdAt: Date.now(),
     };
 
+    // Ajusta a hora para o passo da grade (ex.: 30 ou 60 min) para garantir exibição na visão semanal
+    const step = +state.slotMinutes || 30;
+    const mins = timeToMinutes(model.hora);
+    if(!Number.isNaN(mins) && mins % step !== 0){
+      const aligned = mins - (mins % step); // arredonda para baixo
+      model.hora = minutesToTime(aligned);
+    }
+
     if(!model.pacienteId || !model.data || !model.hora){
       alert('Selecione o paciente (digite e escolha da lista) e preencha data e hora.');
       return;
@@ -368,7 +381,11 @@
 
     els.dayStart.addEventListener('change', function(){ state.dayStart = this.value || '08:00'; if(state.mode==='week'){ renderGrid(); } });
     els.dayEnd.addEventListener('change', function(){ state.dayEnd = this.value || '18:00'; if(state.mode==='week'){ renderGrid(); } });
-    els.slotMinutes.addEventListener('change', function(){ state.slotMinutes = parseInt(this.value||'30',10); if(state.mode==='week'){ renderGrid(); } });
+    els.slotMinutes.addEventListener('change', function(){
+      state.slotMinutes = parseInt(this.value||'30',10);
+      if(els.agendaHora) els.agendaHora.step = String(state.slotMinutes * 60);
+      if(state.mode==='week'){ renderGrid(); }
+    });
 
     if(els.btnViewDay) els.btnViewDay.addEventListener('click', function(){ showMode('day'); });
     if(els.btnViewWeek) els.btnViewWeek.addEventListener('click', function(){ showMode('week'); });
@@ -395,6 +412,9 @@
     state.dayStart = els.dayStart.value || state.dayStart;
     state.dayEnd = els.dayEnd.value || state.dayEnd;
     state.slotMinutes = parseInt(els.slotMinutes.value||state.slotMinutes,10);
+
+    // Garante que o campo hora respeite o passo da grade
+    if(els.agendaHora) els.agendaHora.step = String((state.slotMinutes||30) * 60);
 
     state.currentDate = new Date();
   }

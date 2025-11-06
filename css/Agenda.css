@@ -27,10 +27,10 @@
 .form-field textarea:focus { border-color: var(--cor-secundaria); box-shadow: 0 0 0 3px rgba(14,165,167,0.15); }
 
 .form-actions { display: flex; gap: 10px; margin-top: 10px; }
-.btn-primary { background: var(--cor-primaria); color: #fff; border: none; padding: 10px 14px; border-radius: 6px; font-weight: 600; cursor: pointer; }
+.btn-primary { background: var(--cor-primaria); color: #fff; border: none; padding: 10px 14px; border-radius: 6px; font-weight: 600; cursor: pointer; text-decoration: none; }
 .btn-primary:hover { filter: brightness(0.95); }
-.btn-secondary { background: #fff; color: var(--cor-primaria); border: 1px solid var(--cor-primaria); padding: 10px 14px; border-radius: 6px; font-weight: 600; cursor: pointer; }
-.btn-ghost { background: transparent; color: #475569; border: 1px solid #CBD5E1; padding: 10px 14px; border-radius: 6px; cursor: pointer; }
+.btn-secondary { background: #fff; color: var(--cor-primaria); border: 1px solid var(--cor-primaria); padding: 10px 14px; border-radius: 6px; font-weight: 600; cursor: pointer; text-decoration: none; }
+.btn-ghost { background: transparent; color: #475569; border: 1px solid #CBD5E1; padding: 10px 14px; border-radius: 6px; cursor: pointer; text-decoration: none; }
 
 /* Controles com mais respiro */
 .controls-right { gap: 14px; }

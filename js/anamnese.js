@@ -77,7 +77,7 @@
         <td>${formatDate(r.data)}</td>
         <td>${escapeHtml(resumoFrom(r))}</td>
         <td>
-          <a href="#" class="acao" data-action="editar" data-id="${r.id}">Editar</a>
+          <a href="#" class="acao" data-action="editar/visualizar" data-id="${r.id}">Editar/Visualizar</a>
           <a href="#" class="acao" data-action="excluir" data-id="${r.id}">Excluir</a>
         </td>
       </tr>`).join('') || '<tr><td colspan="3">Nenhuma anamnese encontrada.</td></tr>';
@@ -131,7 +131,7 @@
     const a=e.target.closest('a[data-action]'); if(!a) return; e.preventDefault();
     const id=a.getAttribute('data-id'); const action=a.getAttribute('data-action');
     const list=loadAll(); const item=list.find(x=>x.id===id);
-    if(action==='editar'){ if(item) fillForm(item); return; }
+    if(action==='editar/visualizar'){ if(item) fillForm(item); return; }
     if(action==='excluir'){
       if(!confirm('Excluir esta anamnese?')) return;
       saveAll(list.filter(x=>x.id!==id)); render(); return;

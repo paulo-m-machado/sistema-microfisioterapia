@@ -1,0 +1,27 @@
+/* Calendário mensal da agenda */
+.cal-controls { display:flex; justify-content:space-between; align-items:center; gap:16px; margin-bottom:14px; }
+.cal-wrap { background:#fff; border: var(--borda-padrao); border-radius:8px; padding:14px; }
+.cal-grid { display:grid; grid-template-columns: repeat(7, 1fr); gap:6px; }
+.dow { text-align:center; font-weight:700; color:#334155; padding:6px 0; }
+.cal-days { display:contents; }
+
+.cal-day { background:#fff; border:1px solid #E5E7EB; border-radius:8px; min-height:96px; padding:8px; display:flex; flex-direction:column; gap:6px; cursor:pointer; }
+.cal-day.is-other-month { background:#F8FAFC; color:#94A3B8; border-style:dashed; }
+.cal-day.is-today { outline:2px solid rgba(14,165,167,0.4); }
+.cal-date { font-weight:700; color:#0f172a; }
+.cal-events { list-style:none; margin:0; padding:0; display:grid; gap:4px; }
+.evt { font-size:12px; color:#0f172a; background:#F1F5F9; border:1px solid #E2E8F0; border-radius:6px; padding:4px 6px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.evt.agendada { background:#E0F2FE; color:#0369A1; border-color:#BAE6FD; }
+.evt.concluida { background:#DCFCE7; color:#15803D; border-color:#BBF7D0; }
+.evt.cancelada { background:#FEE2E2; color:#B91C1C; border-color:#FECACA; }
+
+.day-details { margin-top:16px; }
+.day-details-card { background:#fff; border: var(--borda-padrao); border-radius:8px; padding:16px; }
+
+@media (max-width: 900px){
+  .cal-grid { gap:4px; }
+  .cal-day { min-height:88px; }
+}
+@media (max-width: 600px){
+  .cal-day { min-height:72px; }
+}

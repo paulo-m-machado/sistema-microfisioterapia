@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica - Agenda completa</title>
+  <meta name="theme-color" content="#0F766E">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="../css/BaseNavegacao.css">
+  <link rel="stylesheet" href="../css/AreaConteudoMain.css">
+  <link rel="stylesheet" href="../css/Agenda.css">
+  <link rel="stylesheet" href="../css/Calendario.css">
+</head>
+<body>
+  <div class="main-container">
+    <header class="menu-container">
+      <div class="logo-box">
+        <img src="../img/logo.jpg" alt="Logo Micro Fisioterapia">
+      </div>
+      <nav class="nav-links">
+        <div class="nav-link"><a href="index.html">Inicio</a></div>
+        <div class="nav-link"><a href="agenda.html">Agendamento</a></div>
+      </nav>
+      <a href="login.html" id="authAction" class="login-btn">Login</a>
+    </header>
+
+    <main class="content-area">
+      <section class="cal-controls">
+        <div class="controls-left">
+          <button id="calPrev" class="btn-secondary">Mês anterior</button>
+          <button id="calToday" class="btn-ghost">Hoje</button>
+          <button id="calNext" class="btn-secondary">Próximo mês</button>
+          <span id="calLabel" class="week-label"></span>
+        </div>
+        <div class="controls-right">
+          <label style="gap:6px; display:flex; align-items:center;">
+            <input id="chkMostrarCanceladas" type="checkbox"> Mostrar canceladas
+          </label>
+        </div>
+      </section>
+
+      <section class="cal-wrap">
+        <div class="cal-grid" role="grid" aria-label="Calendário mensal" id="calGrid">
+          <div class="dow" role="columnheader">Seg</div>
+          <div class="dow" role="columnheader">Ter</div>
+          <div class="dow" role="columnheader">Qua</div>
+          <div class="dow" role="columnheader">Qui</div>
+          <div class="dow" role="columnheader">Sex</div>
+          <div class="dow" role="columnheader">Sáb</div>
+          <div class="dow" role="columnheader">Dom</div>
+          <div id="calDays" class="cal-days"></div>
+        </div>
+      </section>
+
+      <section class="day-details" id="dayDetails" style="display:none;">
+        <div class="day-details-card">
+          <h2 id="dayDetailsLabel">Atendimentos do dia</h2>
+          <ul id="dayDetailsList" class="agenda-day-list"></ul>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="../js/calendario.js"></script>
+  <script src="../js/auth.js"></script>
+  <script src="../js/pwa.js"></script>
+</body>
+</html>
