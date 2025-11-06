@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Microfisioterapia.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72bc1e28640f37d3222090b87a35681d6cfd86cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4276bee72d2ce7e31bab694c74d2b52f155e32db")]
 [assembly: System.Reflection.AssemblyProductAttribute("Microfisioterapia.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Microfisioterapia.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
