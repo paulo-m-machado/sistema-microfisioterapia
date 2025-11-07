@@ -123,6 +123,7 @@ tbody td { padding: 10px 8px; border-bottom: 1px solid #F1F5F9; color: #334155; 
 .badge.agendada { background: #E0F2FE; color: #0369A1; }
 .badge.concluida { background: #DCFCE7; color: #15803D; }
 .badge.cancelada { background: #FEE2E2; color: #B91C1C; }
+.badge.confirmada { background: #CCFBF1; color: #0F766E; }
 
 a.acao {
   display: inline-block;

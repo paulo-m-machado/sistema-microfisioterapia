@@ -83,6 +83,7 @@
                 <label for="agendaStatus">Status</label>
                 <select id="agendaStatus">
                   <option value="Agendada">Agendada</option>
+                  <option value="Confirmada">Confirmada</option>
                   <option value="Concluída">Concluída</option>
                   <option value="Cancelada">Cancelada</option>
                 </select>
@@ -132,6 +133,32 @@
             </thead>
             <tbody id="agendaBody"></tbody>
           </table>
+        </div>
+      </section>
+
+      <section class="agenda-form" id="cancelarConsultaSection">
+        <div class="agenda-form-card">
+          <h2>Cancelar consulta</h2>
+          <div class="form-grid" style="grid-template-columns:1fr;">
+            <div class="form-field">
+              <label for="cancelPacienteSearch">Paciente</label>
+              <input id="cancelPacienteSearch" type="search" list="pacientesList" placeholder="Digite o nome e selecione" />
+            </div>
+          </div>
+          <div class="table-wrap" style="margin-top:10px;">
+            <table id="tabelaCancelamentos">
+              <thead>
+                <tr>
+                  <th>Data</th>
+                  <th>Hora</th>
+                  <th>Tipo</th>
+                  <th>Status</th>
+                  <th>Ações</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
         </div>
       </section>
     </main>

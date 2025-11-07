@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE_NAME = 'clinica-cache-v4';
+const CACHE_NAME = 'clinica-cache-v5';
 const ASSETS = [
   './index.html',
   './login.html',
@@ -9,6 +9,7 @@ const ASSETS = [
   './anamnese.html',
   './agenda.html',
   './calendario.html',
+  './historico.html',
   './profissional.html',
   './manifest.webmanifest',
   '../css/BaseNavegacao.css',
@@ -18,6 +19,7 @@ const ASSETS = [
   '../css/Anamnese.css',
   '../css/Agenda.css',
   '../css/Calendario.css',
+  '../css/Historico.css',
   '../css/Profissional.css',
   '../js/auth.js',
   '../js/pacientes.js',
@@ -25,6 +27,7 @@ const ASSETS = [
   '../js/anamnese.js',
   '../js/agenda.js',
   '../js/calendario.js',
+  '../js/historico.js',
   '../js/pwa.js',
   '../img/logo.jpg'
 ];

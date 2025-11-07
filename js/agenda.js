@@ -13,6 +13,7 @@
     slotMinutes: 30,
     mode: 'none',
     more: false,
+    cancelPacienteId: null,
   };
 
   function startOfWeek(d){
@@ -22,6 +23,39 @@
     x.setDate(x.getDate() + diff);
     x.setHours(0,0,0,0);
     return x;
+  }
+
+  function renderCancelTable(){
+    if(!els.cancelTbody) return;
+    const pid = state.cancelPacienteId;
+    if(!pid){
+      els.cancelTbody.innerHTML = '<tr><td colspan="5">Digite o nome do paciente para listar as consultas.</td></tr>';
+      return;
+    }
+    const list = loadConsultas()
+      .filter(c => c.pacienteId === pid && c.status !== 'Cancelada')
+      .sort((a,b)=> String(a.data||'').localeCompare(String(b.data||'')) || String(a.hora||'').localeCompare(String(b.hora||'')));
+    if(list.length === 0){
+      els.cancelTbody.innerHTML = '<tr><td colspan="5">Nenhuma consulta encontrada para este paciente.</td></tr>';
+      return;
+    }
+    els.cancelTbody.innerHTML = list.map(c => {
+      const st = String(c.status||'');
+      const key = st.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+      const canConfirm = key === 'agendada';
+      const canCancel = key === 'agendada' || key === 'confirmada';
+      const actions = [];
+      if(canConfirm) actions.push(`<a href="#" class="acao" data-action="confirmar" data-id="${c.id}">Confirmar</a>`);
+      if(canCancel) actions.push(`<a href="#" class="acao" data-action="cancelar" data-id="${c.id}">Cancelar</a>`);
+      const action = actions.length ? actions.join(' ') : '—';
+      return `<tr>
+        <td>${c.data}</td>
+        <td>${c.hora||''}</td>
+        <td>${c.tipo||''}</td>
+        <td>${st}</td>
+        <td>${action}</td>
+      </tr>`;
+    }).join('');
   }
 
   function formatDateYYYYMMDD(d){
@@ -368,6 +402,11 @@
     els.btnViewDay = document.getElementById('btnViewDay');
     els.btnViewWeek = document.getElementById('btnViewWeek');
 
+    // Cancelamento por paciente (rodapé)
+    els.cancelPacienteSearch = document.getElementById('cancelPacienteSearch');
+    els.tabelaCancelamentos = document.getElementById('tabelaCancelamentos');
+    els.cancelTbody = els.tabelaCancelamentos ? els.tabelaCancelamentos.querySelector('tbody') : null;
+
     populatePacientesDatalist();
 
     els.agendaBody.addEventListener('click', handleSlotClick);
@@ -397,6 +436,41 @@
     if(els.btnVerMais) els.btnVerMais.addEventListener('click', function(){ state.more = true; renderDayList(); });
     if(els.btnVerMenos) els.btnVerMenos.addEventListener('click', function(){ state.more = false; renderDayList(); });
 
+    if(els.cancelPacienteSearch){
+      els.cancelPacienteSearch.addEventListener('input', function(){
+        const typed = (this.value||'').trim();
+        const match = findPacienteByTyped(typed);
+        state.cancelPacienteId = match ? match.id : null;
+        renderCancelTable();
+      });
+    }
+    if(els.cancelTbody){
+      els.cancelTbody.addEventListener('click', function(e){
+        const a = e.target.closest('a[data-action]');
+        if(!a) return; e.preventDefault();
+        const id = a.getAttribute('data-id');
+        const action = a.getAttribute('data-action');
+        const list = loadConsultas();
+        const idx = list.findIndex(x=>x.id===id);
+        if(idx<0) return;
+        if(action === 'confirmar'){
+          list[idx].status = 'Confirmada';
+          saveConsultas(list);
+          renderCancelTable();
+          if(state.mode==='week') renderGrid(); else renderDayList();
+          return;
+        }
+        if(action === 'cancelar'){
+          if(!confirm('Cancelar esta consulta?')) return;
+          list[idx].status = 'Cancelada';
+          saveConsultas(list);
+          renderCancelTable();
+          if(state.mode==='week') renderGrid(); else renderDayList();
+          return;
+        }
+      });
+    }
+
     if(els.agendaDayList) els.agendaDayList.addEventListener('click', function(e){
       const link = e.target.closest('a');
       if(!link) return;
@@ -417,6 +491,7 @@
     if(els.agendaHora) els.agendaHora.step = String((state.slotMinutes||30) * 60);
 
     state.currentDate = new Date();
+    renderCancelTable();
   }
 
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', init); else init();

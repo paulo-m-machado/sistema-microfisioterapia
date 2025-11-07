@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica - Histórico do Paciente</title>
+  <meta name="theme-color" content="#0F766E">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="../css/BaseNavegacao.css">
+  <link rel="stylesheet" href="../css/AreaConteudoMain.css">
+  <link rel="stylesheet" href="../css/Historico.css">
+</head>
+<body>
+  <div class="main-container">
+    <header class="menu-container">
+      <div class="logo-box">
+        <img src="../img/logo.jpg" alt="Logo Micro Fisioterapia">
+      </div>
+      <nav class="nav-links">
+        <div class="nav-link"><a href="index.html">Inicio</a></div>
+        <div class="nav-link"><a href="agenda.html">Agendamento</a></div>
+      </nav>
+      <a href="login.html" id="authAction" class="login-btn">Login</a>
+    </header>
+
+    <main class="content-area">
+      <section class="historico-wrap">
+        <div id="selectCard" class="historico-card">
+          <h2>Buscar paciente</h2>
+          <div class="form-grid" style="grid-template-columns:1fr;">
+            <div class="form-field">
+              <label for="pacienteSearch">Paciente</label>
+              <input id="pacienteSearch" type="search" list="pacientesList" placeholder="Digite para buscar e selecione" />
+              <datalist id="pacientesList"></datalist>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="button" id="btnEscolher" class="btn-primary">Carregar histórico</button>
+          </div>
+        </div>
+
+        <div id="listCard" class="historico-card" style="display:none;">
+          <div class="list-header">
+            <h2 id="tituloPaciente">Histórico</h2>
+            <input id="busca" type="search" placeholder="Filtrar por texto, tipo ou status" />
+          </div>
+          <div class="grid-2">
+            <div class="box">
+              <h3>Consultas</h3>
+              <div class="table-wrap">
+                <table id="tabelaConsultasPac">
+                  <thead>
+                    <tr>
+                      <th>Data</th>
+                      <th>Hora</th>
+                      <th>Tipo</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+            <div class="box">
+              <h3>Anamneses</h3>
+              <div class="table-wrap">
+                <table id="tabelaAnamnesesPac">
+                  <thead>
+                    <tr>
+                      <th>Data</th>
+                      <th>Resumo</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+              <div class="actions-inline">
+                <a id="linkAnamnese" href="#" class="btn-secondary">Abrir página de Anamnese</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="../js/historico.js"></script>
+  <script src="../js/auth.js"></script>
+  <script src="../js/pwa.js"></script>
+</body>
+</html>

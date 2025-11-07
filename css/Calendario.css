@@ -14,6 +14,7 @@
 .evt.agendada { background:#E0F2FE; color:#0369A1; border-color:#BAE6FD; }
 .evt.concluida { background:#DCFCE7; color:#15803D; border-color:#BBF7D0; }
 .evt.cancelada { background:#FEE2E2; color:#B91C1C; border-color:#FECACA; }
+.evt.confirmada { background:#CCFBF1; color:#0F766E; border-color:#99F6E4; }
 
 .day-details { margin-top:16px; }
 .day-details-card { background:#fff; border: var(--borda-padrao); border-radius:8px; padding:16px; }

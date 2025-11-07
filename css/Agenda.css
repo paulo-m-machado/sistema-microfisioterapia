@@ -58,6 +58,7 @@
 .event.agendada { background: #E0F2FE; color: #0369A1; border-color: #BAE6FD; }
 .event.concluida { background: #DCFCE7; color: #15803D; border-color: #BBF7D0; }
 .event.cancelada { background: #FEE2E2; color: #B91C1C; border-color: #FECACA; }
+.event.confirmada { background: #CCFBF1; color: #0F766E; border-color: #99F6E4; }
 
 /* Destaque para o dia atual */
 #agendaGrid thead th.today { background: #ECFEFF; color: var(--cor-primaria); border-bottom-color: #BAE6FD; }
@@ -83,6 +84,7 @@
 .agenda-day-item.agendada { border-color: #BAE6FD; background: #E0F2FE; }
 .agenda-day-item.concluida { border-color: #BBF7D0; background: #DCFCE7; }
 .agenda-day-item.cancelada { border-color: #FECACA; background: #FEE2E2; }
+.agenda-day-item.confirmada { border-color: #99F6E4; background: #CCFBF1; }
 .agenda-day-item a { text-decoration: none; color: inherit; display: flex; align-items: center; gap: 10px; }
 .agenda-day-empty { color: #64748B; padding: 12px; background: #F8FAFC; border: 1px dashed #E5E7EB; border-radius: 8px; }
 .agenda-day-actions { margin-top: 10px; }

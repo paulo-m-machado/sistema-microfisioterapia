@@ -45,6 +45,7 @@
           <a href="#" class="acao" data-action="editar" data-id="${r.id}">Editar</a>
           <a href="#" class="acao" data-action="excluir" data-id="${r.id}">Excluir</a>
           <a href="anamnese.html?pacienteId=${r.id}" class="acao">Anamnese</a>
+          <a href="historico.html?pacienteId=${r.id}" class="acao">Histórico</a>
         </td>
       </tr>`).join('') || '<tr><td colspan="6">Nenhum paciente encontrado.</td></tr>';
   }

@@ -75,6 +75,7 @@
     if (s === 'agendada') return 'badge agendada';
     if (s === 'concluída' || s === 'concluida') return 'badge concluida';
     if (s === 'cancelada') return 'badge cancelada';
+    if (s === 'confirmada') return 'badge confirmada';
     return 'badge';
   }
 
@@ -82,8 +83,6 @@
     const tbody = els.tbody;
     const query = state.query.trim().toLowerCase();
     let rows = loadConsultas();
-    // Exibir apenas consultas com status 'Agendada'
-    rows = rows.filter(r => String((r.status || '')).toLowerCase() === 'agendada');
 
     if (query) {
       rows = rows.filter((r) =>
@@ -111,6 +110,18 @@
 
     const html = rows
       .map((r) => {
+        const st = String(r.status || '').toLowerCase();
+        let actions = `<a href="#" class="acao" data-action="excluir" data-id="${r.id}">Excluir</a>`;
+        if (r.pacienteId) {
+          actions += `<a href="anamnese.html?pacienteId=${r.pacienteId}" class="acao">Anamnese</a>`;
+          actions += `<a href="historico.html?pacienteId=${r.pacienteId}" class="acao">Histórico</a>`;
+        }
+        if (st === 'agendada') {
+          actions += `<a href="#" class="acao" data-action="confirmar" data-id="${r.id}">Confirmar</a>`;
+          actions += `<a href="#" class="acao" data-action="cancelar" data-id="${r.id}">Cancelar</a>`;
+        } else if (st === 'confirmada') {
+          actions += `<a href="#" class="acao" data-action="cancelar" data-id="${r.id}">Cancelar</a>`;
+        }
         return `
           <tr>
             <td>${escapeHtml(r.paciente)}</td>
@@ -119,8 +130,7 @@
             <td>${escapeHtml(r.tipo)}</td>
             <td><span class="${statusBadgeClass(r.status)}">${escapeHtml(r.status)}</span></td>
             <td>
-              <a href="#" class="acao" data-action="excluir" data-id="${r.id}">Excluir</a>
-              ${r.pacienteId ? `<a href="anamnese.html?pacienteId=${r.pacienteId}" class="acao">Anamnese</a>` : ''}
+              ${actions}
             </td>
           </tr>`;
       })
@@ -211,6 +221,21 @@
       if (!confirm('Deseja realmente excluir esta consulta?')) return;
       const filtered = list.filter((x) => x.id !== id);
       saveConsultas(filtered);
+      render();
+      return;
+    }
+    if (action === 'confirmar') {
+      if (!item) return;
+      item.status = 'Confirmada';
+      saveConsultas(list);
+      render();
+      return;
+    }
+    if (action === 'cancelar') {
+      if (!item) return;
+      if (!confirm('Cancelar esta consulta?')) return;
+      item.status = 'Cancelada';
+      saveConsultas(list);
       render();
       return;
     }
