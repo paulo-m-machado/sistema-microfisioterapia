@@ -28,15 +28,22 @@
   function renderCancelTable(){
     if(!els.cancelTbody) return;
     const pid = state.cancelPacienteId;
-    if(!pid){
-      els.cancelTbody.innerHTML = '<tr><td colspan="5">Digite o nome do paciente para listar as consultas.</td></tr>';
-      return;
-    }
+    const typedRaw = (els.cancelPacienteSearch && els.cancelPacienteSearch.value || '').trim();
+    const typedLower = typedRaw.toLowerCase();
     const list = loadConsultas()
-      .filter(c => c.pacienteId === pid && c.status !== 'Cancelada')
+      .filter(c => {
+        if(String(c.status||'') === 'Cancelada') return false;
+        if(pid) return c.pacienteId === pid;
+        if(typedLower){
+          const nm = String(c.paciente||'').toLowerCase();
+          return nm.includes(typedLower);
+        }
+        return false;
+      })
       .sort((a,b)=> String(a.data||'').localeCompare(String(b.data||'')) || String(a.hora||'').localeCompare(String(b.hora||'')));
     if(list.length === 0){
-      els.cancelTbody.innerHTML = '<tr><td colspan="5">Nenhuma consulta encontrada para este paciente.</td></tr>';
+      const msg = typedLower ? 'Nenhuma consulta encontrada para este paciente.' : 'Digite o nome do paciente para listar as consultas.';
+      els.cancelTbody.innerHTML = `<tr><td colspan="5">${msg}</td></tr>`;
       return;
     }
     els.cancelTbody.innerHTML = list.map(c => {
@@ -456,6 +463,8 @@
         if(action === 'confirmar'){
           list[idx].status = 'Confirmada';
           saveConsultas(list);
+          const isToday = list[idx].data === formatDateYYYYMMDD(new Date());
+          if(isToday){ window.location.href = 'index.html'; return; }
           renderCancelTable();
           if(state.mode==='week') renderGrid(); else renderDayList();
           return;

@@ -108,3 +108,30 @@
   .btn-primary, .btn-secondary, .btn-ghost { min-height: 42px; font-size: 15px; }
   .controls-right { gap: 8px; }
 }
+
+/* Tabela de cancelamentos (mais espaçamento e legibilidade) */
+#tabelaCancelamentos { width: 100%; border-collapse: collapse; table-layout: auto; }
+#tabelaCancelamentos thead th { background: #F8FAFC; color: #334155; text-align: left; border-bottom: 1px solid #E5E7EB; padding: 10px 12px; position: sticky; top: 0; z-index: 1; }
+#tabelaCancelamentos tbody td { border-bottom: 1px solid #F1F5F9; padding: 10px 12px; vertical-align: middle; }
+#tabelaCancelamentos tbody tr:hover { background: #F8FAFC; }
+
+/* Larguras sugeridas para separar melhor as colunas */
+#tabelaCancelamentos td:nth-child(1),
+#tabelaCancelamentos th:nth-child(1) { width: 120px; white-space: nowrap; }
+#tabelaCancelamentos td:nth-child(2),
+#tabelaCancelamentos th:nth-child(2) { width: 90px; white-space: nowrap; }
+#tabelaCancelamentos td:nth-child(3),
+#tabelaCancelamentos th:nth-child(3) { min-width: 140px; }
+#tabelaCancelamentos td:nth-child(4),
+#tabelaCancelamentos th:nth-child(4) { width: 120px; }
+#tabelaCancelamentos td:nth-child(5),
+#tabelaCancelamentos th:nth-child(5) { width: 170px; white-space: nowrap; }
+
+/* Espaço entre as ações */
+#tabelaCancelamentos a.acao { margin-right: 12px; text-decoration: none; color: var(--cor-primaria); }
+#tabelaCancelamentos a.acao:last-child { margin-right: 0; }
+
+@media (max-width: 700px) {
+  #tabelaCancelamentos thead th, #tabelaCancelamentos tbody td { padding: 8px 10px; font-size: 13px; }
+  #tabelaCancelamentos th:nth-child(5), #tabelaCancelamentos td:nth-child(5) { width: auto; }
+}
