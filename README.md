@@ -1,7 +1,7 @@
 # Sistema Microfisioterapia
 # Sumario (a fazer)
 1. [Introdução](#Introdução)
-	1. [Metodos utilizados](##Metodos utilizados)
+	1. [Metodos utilizados](##Metodos)
 2. [Objetivos](#Objetivos)
 	1. [Geral](##Geral)
 	2. [Especificos](##Especificos)
