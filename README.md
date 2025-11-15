@@ -22,7 +22,7 @@
 	4. [Permitir o cancelamento e edição de consultas](##Permitir-o-cancelamento-e-edição-de-consultas)
 6. [Diagrama de classes](#Diagrama-de-classes)
 7. [Modelo de banco de dados](#Modelo-de-banco-de-dados)
-8. [Estudo de viabilidade](## Estudo-de-viabilidade)
+8. [Estudo de viabilidade](##Estudo-de-viabilidade)
 	1. [Viabilidade de mercado](##Viabilidade-de-mercado)
 		1. [Demanda identificada](###Demanda-identificada)
 		2. [Diferenciais do site](###Diferenciais-do-site)
