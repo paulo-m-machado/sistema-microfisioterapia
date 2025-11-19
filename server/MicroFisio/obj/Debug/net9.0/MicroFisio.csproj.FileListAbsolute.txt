@@ -30,7 +30,6 @@ C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\sistema-microf
 C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\sistema-microfisioterapia\server\MicroFisio\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\sistema-microfisioterapia\server\MicroFisio\obj\Debug\net9.0\scopedcss\bundle\MicroFisio.styles.css
 C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\sistema-microfisioterapia\server\MicroFisio\obj\Debug\net9.0\scopedcss\projectbundle\MicroFisio.bundle.scp.css
-C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\sistema-microfisioterapia\server\MicroFisio\obj\Debug\net9.0\compressed\xfli449a8g-sx4sq7jgzc.gz
 C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\sistema-microfisioterapia\server\MicroFisio\obj\Debug\net9.0\compressed\f5hmp50vfw-b9sayid5wm.gz
 C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\sistema-microfisioterapia\server\MicroFisio\obj\Debug\net9.0\compressed\gce7vu591x-61n19gt1b8.gz
 C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\sistema-microfisioterapia\server\MicroFisio\obj\Debug\net9.0\compressed\wxitkvyf5y-xtxxf3hu2r.gz
@@ -106,3 +105,4 @@ C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\sistema-microf
 C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\sistema-microfisioterapia\server\MicroFisio\obj\Debug\net9.0\MicroFisio.genruntimeconfig.cache
 C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\sistema-microfisioterapia\server\MicroFisio\obj\Debug\net9.0\ref\MicroFisio.dll
 C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\sistema-microfisioterapia\server\MicroFisio\obj\Debug\net9.0\compressed\xfli449a8g-fijc5o01l1.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\sistema-microfisioterapia\server\MicroFisio\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
