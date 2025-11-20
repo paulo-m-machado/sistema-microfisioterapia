@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="48" viewBox="0 0 360 96" fill="none" role="img" aria-label="Clínica">
+  <rect width="360" height="96" fill="none"/>
+  <g transform="translate(12,12)">
+    <circle cx="36" cy="36" r="36" fill="#0F766E"/>
+    <rect x="28" y="16" width="16" height="40" rx="3" fill="white"/>
+    <rect x="16" y="28" width="40" height="16" rx="3" fill="white"/>
+  </g>
+  <g transform="translate(96,22)">
+    <text x="0" y="24" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#0F172A">Micro</text>
+    <text x="110" y="24" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#0F766E">Fisioterapia</text>
+  </g>
+</svg>

@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Tamires\\OneDrive\\\u00C1rea de Trabalho\\PI-MICRO\\INTERFACE-PI\\sistema-microfisioterapia\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A633A13-917B-4B87-907F-30D88862E922}|Microfisioterapia.Web\\Microfisioterapia.Web.csproj|c:\\users\\tamires\\onedrive\\\u00E1rea de trabalho\\pi-micro\\interface-pi\\sistema-microfisioterapia\\microfisioterapia.web\\controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A633A13-917B-4B87-907F-30D88862E922}|Microfisioterapia.Web\\Microfisioterapia.Web.csproj|solutionrelative:microfisioterapia.web\\controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AgendaController.cs",
+              "DocumentMoniker": "C:\\Users\\Tamires\\OneDrive\\\u00C1rea de Trabalho\\PI-MICRO\\INTERFACE-PI\\sistema-microfisioterapia\\Microfisioterapia.Web\\Controllers\\AgendaController.cs",
+              "RelativeDocumentMoniker": "Microfisioterapia.Web\\Controllers\\AgendaController.cs",
+              "ToolTip": "C:\\Users\\Tamires\\OneDrive\\\u00C1rea de Trabalho\\PI-MICRO\\INTERFACE-PI\\sistema-microfisioterapia\\Microfisioterapia.Web\\Controllers\\AgendaController.cs",
+              "RelativeToolTip": "Microfisioterapia.Web\\Controllers\\AgendaController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T11:26:57.521Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,0 +1,74 @@
+/*style.css: Área de Conteúdo (MAIN)*/
+/* --- ÁREA PRINCIPAL (MAIN) --- */
+.content-area {
+    padding: 20px;
+    background-color: var(--cor-texto-claro); /* Fundo branco, como no mockup */
+    border: var(--borda-padrao);
+    border-top: none; /* Remove a borda no topo para conectar com o header */
+}
+
+.info-rapidas-box {
+    background-color: #ffffff; /* Fundo branco */
+    border: var(--borda-padrao);
+    min-height: 250px; /* Altura aproximada do bloco branco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-rapidas-box h2 {
+    color: var(--cor-texto-escuro);
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+.telefone-box {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto-claro);
+  padding: 16px 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.telefone-box h2 {
+  font-size: 1.25em;
+  letter-spacing: 1px;
+}
+
+/* --- BLOCOS INFERIORES --- */
+.blocos-inferiores {
+    display: flex;
+    gap: 15px; /* Espaço entre os blocos */
+    justify-content: space-between;
+}
+
+.bloco-item {
+    flex: 1; /* Faz com que todos tenham a mesma largura */
+    min-height: 100px;
+    background-color: #f0f8ff; /* Um azul/cinza bem clarinho */
+    border: var(--borda-padrao);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    color: var(--cor-texto-escuro);
+    line-height: 1.4;
+    border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+  .content-area { padding: 16px; }
+  .blocos-inferiores { flex-direction: column; gap: 12px; }
+}
+
+@media (max-width: 600px) {
+  .content-area { padding: 12px; }
+  .telefone-box { padding: 14px 12px; }
+  .info-rapidas-box { min-height: 180px; }
+}

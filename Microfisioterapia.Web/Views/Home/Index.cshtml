@@ -1,0 +1,213 @@
+﻿@{
+    ViewData["Title"] = "Início";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/Agenda.css" asp-append-version="true" />
+}
+
+<section class="info-rapidas-box">
+    <h2>Informações Rápidas</h2>
+    <div class="agenda-hoje-card card">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px; gap:8px;">
+            <h3 style="margin:0;">Agenda de hoje</h3>
+            <div style="display:flex; align-items:center; gap:8px;">
+                <span id="homeDayLabel" class="week-label"></span>
+                <a asp-controller="Agenda" asp-action="Create" id="homeNovoAg" class="btn btn-primary" aria-label="Novo agendamento">Novo agendamento</a>
+                <a asp-controller="Agenda" asp-action="Index" id="homeGoAgenda" class="btn btn-outline-primary" aria-label="Ver agenda completa">Ver agenda completa</a>
+            </div>
+        </div>
+        <ul id="homeAgendaList" class="agenda-day-list"></ul>
+        <div class="agenda-day-actions">
+            <button id="homeVerMais" class="btn btn-outline-secondary" style="display:none;" aria-label="Ver mais itens">Ver mais</button>
+            <button id="homeVerMenos" class="btn btn-outline-secondary" style="display:none;" aria-label="Ver menos itens">Ver menos</button>
+        </div>
+    </div>
+</section>
+
+<section class="blocos-inferiores">
+    <div class="bloco-item">
+        <h3>Informações de atendimento</h3>
+        <a asp-controller="Pacientes" asp-action="Create" class="btn btn-primary" aria-label="Cadastrar Paciente">Cadastrar Paciente</a>
+    </div>
+    <div class="bloco-item">
+        <h3>Informação extra</h3>
+        <a asp-controller="Anamnese" asp-action="Index" class="btn btn-outline-secondary" aria-label="Anamnese">Anamnese</a>
+    </div>
+    <div class="bloco-item">
+        <div class="mini-cal" id="miniCal">
+            <div class="mini-cal-header">
+                <button id="calPrev" class="btn btn-link text-decoration-none" aria-label="Mês anterior">‹</button>
+                <div id="calLabel" class="mini-cal-label"></div>
+                <button id="calNext" class="btn btn-link text-decoration-none" aria-label="Próximo mês">›</button>
+            </div>
+            <div class="mini-cal-grid" aria-label="Calendário mensal" role="grid">
+                <div class="dow" role="columnheader">Seg</div>
+                <div class="dow" role="columnheader">Ter</div>
+                <div class="dow" role="columnheader">Qua</div>
+                <div class="dow" role="columnheader">Qui</div>
+                <div class="dow" role="columnheader">Sex</div>
+                <div class="dow" role="columnheader">Sáb</div>
+                <div class="dow" role="columnheader">Dom</div>
+                <div id="miniCalDays" class="mini-cal-days"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        (function(){
+            'use strict';
+            
+            // Função para carregar consultas da API
+            async function loadConsultas() {
+                try {
+                    const response = await fetch('/api/agenda/hoje');
+                    if (!response.ok) throw new Error('Erro ao carregar consultas');
+                    return await response.json();
+                } catch (error) {
+                    console.error('Erro:', error);
+                    return [];
+                }
+            }
+            
+            function formatDateYYYYMMDD(d) { 
+                const y = d.getFullYear(); 
+                const m = String(d.getMonth() + 1).padStart(2, '0'); 
+                const dd = String(d.getDate()).padStart(2, '0'); 
+                return `${y}-${m}-${dd}`; 
+            }
+            
+            function formatBR(d) { 
+                return d.toLocaleDateString('pt-BR'); 
+            }
+            
+            function toCssClass(s) { 
+                return String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, '-'); 
+            }
+            
+            const ul = document.getElementById('homeAgendaList');
+            if (!ul) return;
+            
+            const lbl = document.getElementById('homeDayLabel');
+            const btnMais = document.getElementById('homeVerMais');
+            const btnMenos = document.getElementById('homeVerMenos');
+            
+            let more = false;
+            const today = new Date();
+            
+            if (lbl) lbl.textContent = formatBR(today);
+            
+            if (btnMais) btnMais.addEventListener('click', () => { more = true; render(); });
+            if (btnMenos) btnMenos.addEventListener('click', () => { more = false; render(); });
+            
+            // Renderiza a lista de consultas
+            async function render() {
+                const consultas = await loadConsultas();
+                const hoje = formatDateYYYYMMDD(today);
+                
+                // Filtra consultas de hoje e ordena por horário
+                const hojeConsultas = consultas
+                    .filter(c => c.data === hoje)
+                    .sort((a, b) => a.hora.localeCompare(b.hora));
+                
+                // Limita a exibição se não estiver expandido
+                const limit = more ? hojeConsultas.length : 3;
+                const hasMore = hojeConsultas.length > 3;
+                
+                // Atualiza a UI
+                ul.innerHTML = hojeConsultas
+                    .slice(0, limit)
+                    .map(c => `
+                        <li class="agenda-day-item">
+                            <div class="agenda-time">${c.hora}</div>
+                            <div class="agenda-details">
+                                <div class="agenda-paciente">${c.pacienteNome || 'Sem nome'}</div>
+                                <div class="agenda-tipo ${toCssClass(c.tipo)}">${c.tipo}</div>
+                            </div>
+                        </li>
+                    `).join('');
+                
+                // Mostra mensagem se não houver consultas
+                if (hojeConsultas.length === 0) {
+                    ul.innerHTML = '<li class="no-events">Nenhuma consulta agendada para hoje</li>';
+                }
+                
+                // Atualiza botões de ver mais/ver menos
+                if (btnMais) btnMais.style.display = !more && hasMore ? 'inline-block' : 'none';
+                if (btnMenos) btnMenos.style.display = more && hasMore ? 'inline-block' : 'none';
+            }
+            
+            // Mini calendário
+            const calPrev = document.getElementById('calPrev');
+            const calNext = document.getElementById('calNext');
+            const calLabel = document.getElementById('calLabel');
+            const calDays = document.getElementById('miniCalDays');
+            const calDate = new Date();
+            
+            if (calPrev && calNext && calLabel && calDays) {
+                calPrev.addEventListener('click', () => {
+                    calDate.setMonth(calDate.getMonth() - 1);
+                    renderCalendar();
+                });
+                
+                calNext.addEventListener('click', () => {
+                    calDate.setMonth(calDate.getMonth() + 1);
+                    renderCalendar();
+                });
+                
+                function renderCalendar() {
+                    const year = calDate.getFullYear();
+                    const month = calDate.getMonth();
+                    
+                    // Atualiza o cabeçalho do calendário
+                    calLabel.textContent = new Intl.DateTimeFormat('pt-BR', { 
+                        month: 'long', 
+                        year: 'numeric' 
+                    }).format(calDate);
+                    
+                    // Primeiro dia do mês
+                    const firstDay = new Date(year, month, 1);
+                    // Último dia do mês
+                    const lastDay = new Date(year, month + 1, 0);
+                    // Dia da semana do primeiro dia (0-6, onde 0 é domingo)
+                    const startDay = firstDay.getDay() || 7; // Ajusta para que segunda seja 1
+                    
+                    // Limpa o calendário
+                    calDays.innerHTML = '';
+                    
+                    // Adiciona dias vazios no início, se necessário
+                    for (let i = 1; i < startDay; i++) {
+                        const emptyDay = document.createElement('div');
+                        emptyDay.className = 'mini-cal-day empty';
+                        calDays.appendChild(emptyDay);
+                    }
+                    
+                    // Adiciona os dias do mês
+                    for (let day = 1; day <= lastDay.getDate(); day++) {
+                        const dayElement = document.createElement('div');
+                        dayElement.className = 'mini-cal-day';
+                        dayElement.textContent = day;
+                        
+                        // Destaca o dia atual
+                        const today = new Date();
+                        if (day === today.getDate() && 
+                            month === today.getMonth() && 
+                            year === today.getFullYear()) {
+                            dayElement.classList.add('today');
+                        }
+                        
+                        calDays.appendChild(dayElement);
+                    }
+                }
+                
+                // Renderiza o calendário pela primeira vez
+                renderCalendar();
+            }
+            
+            // Carrega as consultas iniciais
+            render();
+        })();
+    </script>
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Microfisioterapia</title>
+    <meta name="theme-color" content="#0F766E">
+    <link rel="manifest" href="~/manifest.webmanifest">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="~/favicon.ico" type="image/x-icon" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/BaseNavegacao.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/AreaConteudoMain.css" asp-append-version="true" />
+    
+    <!-- CSS específico da página -->
+    @if (IsSectionDefined("Styles"))
+    {
+        @RenderSection("Styles", required: false)
+    }
+    
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --cor-primaria: #0F766E;
+            --cor-secundaria: #0EA5A7;
+            --cor-texto-escuro: #1E293B;
+            --cor-texto-cinza: #64748B;
+            --cor-borda: #E2E8F0;
+            --cor-fundo: #F8FAFC;
+            --cor-erro: #DC2626;
+            --cor-sucesso: #059669;
+            --sombra-padrao: 0 1px 3px rgba(0, 0, 0, 0.1);
+            --borda-padrao: 1px solid var(--cor-borda);
+            --cor-fundo-login: #D1FAE5;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: var(--cor-texto-escuro);
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .main-container {
+            width: 96%;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+        
+        .content-area {
+            background-color: white;
+            border-radius: 0 0 5px 5px;
+            padding: 20px;
+            min-height: calc(100vh - 120px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Estilos para os cards */
+        .card {
+            border: var(--borda-padrao);
+            border-radius: 8px;
+            box-shadow: var(--sombra-padrao);
+            background: #fff;
+            margin-bottom: 20px;
+        }
+        
+        .card-header {
+            background-color: #F8FAFC;
+            border-bottom: var(--borda-padrao);
+            padding: 12px 16px;
+            font-weight: 600;
+            color: var(--cor-texto-escuro);
+        }
+        
+        .card-body {
+            padding: 20px;
+        }
+        
+        /* Estilos específicos para o logo */
+        .logo-box {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo-box a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+        
+        .logo-img {
+            height: 56px;
+            width: auto;
+            border-radius: 10px;
+        }
+        
+        /* Melhorias no menu */
+        .menu-container {
+            background-color: var(--cor-primaria);
+            padding: 10px 20px;
+            border-radius: 5px 5px 0 0;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .nav-link a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 0;
+            position: relative;
+        }
+        
+        .nav-link a:hover,
+        .nav-link a.active {
+            color: #e0e0e0;
+        }
+        
+        .login-btn {
+            background-color: var(--cor-fundo-login);
+            color: var(--cor-texto-escuro) !important;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        
+        .login-btn:hover {
+            background-color: #76c776;
+            color: white !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <header class="menu-container">
+            <div class="logo-box">
+                <a asp-controller="Home" asp-action="Index">
+                    <img src="~/img/logo.svg" alt="Logo Micro Fisioterapia" class="logo-img">
+                </a>
+            </div>
+            <nav class="nav-links">
+                <div class="nav-link"><a asp-controller="Home" asp-action="Index" class="@(ViewContext.RouteData.Values["Controller"].ToString() == "Home" ? "active" : "")">Início</a></div>
+                <div class="nav-link"><a asp-controller="Agenda" asp-action="Index" class="@(ViewContext.RouteData.Values["Controller"].ToString() == "Agenda" ? "active" : "")">Agendamento</a></div>
+            </nav>
+            <a href="#" id="authAction" class="login-btn">Login</a>
+        </header>
+
+        <main class="content-area">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+    <!-- Scripts específicos da página -->
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        // Função para exibir mensagens de notificação
+        function showToast(message, type = 'info') {
+            // Implementação do toast de notificação
+            console.log(`[${type.toUpperCase()}] ${message}`);
+        }
+        
+        // Inicialização de componentes comuns
+        document.addEventListener('DOMContentLoaded', function() {
+            // Tooltips
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+            
+            // Popovers
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl);
+            });
+        });
+    </script>
+</body>
+</html>

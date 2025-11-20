@@ -1,0 +1,96 @@
+@{
+    ViewData["Title"] = "Agenda";
+}
+
+<link rel="stylesheet" href="~/css/BaseNavegacao.css" />
+<link rel="stylesheet" href="~/css/AreaConteudoMain.css" />
+<link rel="stylesheet" href="~/css/Agenda.css" />
+
+<div class="main-container">
+
+    <main class="content-area">
+        <section class="agenda-controls">
+            <div class="controls-left">
+                <button id="btnPrev" class="btn-secondary">Anterior</button>
+                <button id="btnToday" class="btn-ghost">Hoje</button>
+                <button id="btnNext" class="btn-secondary">Próxima</button>
+                <span id="weekLabel" class="week-label"></span>
+            </div>
+            <div class="controls-right">
+                <div class="mode-switch" style="display:flex; gap:8px; align-items:center;">
+                    <button id="btnViewWeek" class="btn-ghost">Ver semana</button>
+                </div>
+                <label>
+                    Início
+                    <input id="dayStart" type="time" value="08:00">
+                </label>
+                <label>
+                    Fim
+                    <input id="dayEnd" type="time" value="18:00">
+                </label>
+                <label>
+                    Duração
+                    <select id="slotMinutes">
+                        <option value="30" selected>30 min</option>
+                        <option value="60">60 min</option>
+                        <option value="90">90 min</option>
+                    </select>
+                </label>
+                <label>
+                    Tipo
+                    <select id="filterTipo">
+                        <option value="">Todos</option>
+                        <option value="Avaliação">Avaliação</option>
+                        <option value="Consulta">Consulta</option>
+                        <option value="Retorno">Retorno</option>
+                    </select>
+                </label>
+            </div>
+        </section>
+
+        <section class="agenda-grid-wrap">
+            <div class="table-wrap">
+                <table id="agendaGrid">
+                    <thead>
+                        <tr id="agendaHeaderRow">
+                            <th class="times-col">Horários</th>
+                            <th>Segunda</th>
+                            <th>Terça</th>
+                            <th>Quarta</th>
+                            <th>Quinta</th>
+                            <th>Sexta</th>
+                            <th>Sábado</th>
+                            <th>Domingo</th>
+                        </tr>
+                    </thead>
+                    <tbody id="agendaBody"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <div style="margin-top: 14px;">
+            <a class="btn-primary" asp-controller="Agenda" asp-action="Create">Novo Agendamento</a>
+        </div>
+
+        <section class="agenda-form" id="cancelarConsultaSection" style="display: none;">
+            <div class="agenda-form-card">
+                <h2>Confirmar / Cancelar Consulta</h2>
+                <div class="form-grid" style="grid-template-columns:1fr;">
+                    <div class="form-field">
+                        <label>Motivo do Cancelamento</label>
+                        <textarea id="motivoCancelamento" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="button" id="btnConfirmarConsulta" class="btn-primary">Confirmar</button>
+                    <button type="button" id="btnCancelarConsulta" class="btn-secondary">Cancelar Consulta</button>
+                    <button type="button" id="btnFecharForm" class="btn-ghost">Fechar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+@section Scripts {
+    <script src="~/js/agenda-view.js"></script>
+}
