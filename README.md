@@ -44,11 +44,9 @@
 	8. [Estrutra de custos](##Estrutra-de-custos)
 	9. [Fontes de receita](##Fontes-de-receita)
 10. [Design](#Design)
-	1. [Paleta de cores](##Paleta-de-cores)
-	2. [Tipografia](##Tipografia)
-	3. [Logo](##Logo)
-	4. [Modelo de navegação](##Modelo-de-navegação)
-	5. [Prototipo](##Prototipo)
+	1. [Tipografia](##Tipografia)
+	2. [Logo](##Logo)
+	3. [Prototipo](##Prototipo)
 11. [Considerações finais](#Considerações-finais)
 # Introdução
 Devido ao cenário de atendimento a clínica de microfisioterapia, desenvolvemos esta solução para o auxilio e melhor atendimento dos pacientes, facilitar o registro de usuários e um método de agendamento para os pacientes que precisam de atendimento microfisioterapeuta. O foco deste projeto é um melhor o atendimento dos pacientes, garantir que os dados que serão registrados pelo médico estejam em segurança e sigilo, e um método mais prático de agendamento e consulta para os usuários. Dessa forma, busca-se maior organização, praticidade e acessibilidade para o profissional no acompanhamento dos pacientes.
@@ -111,9 +109,9 @@ Com o usuário cadastrado e logado o sistema deve permitir que possa ser feita a
 - Tipo: Primário
 - Descrição: Usuário, já cadastrado na plataforma, tem a opção realizar um agendamento de consulta com o profissional clínico. O Usuário após ter realizado o agendamento da consulta poderá cancelar o atendimento ou editar o dia e hora da consulta.
 # Diagrama de classes
-# !!!!! adicionar diagrama aqui !!!!!!
+[readme/classes.jpeg]
 # Modelo de banco de dados
-# !!!!!!!!!!! adicionar diagrama aqui !!!!!!!!!!!!!1
+[readme/db.png]
 # Estudo de viabilidade
 Há como objetivo analisar os aspectos técnicos, econômicos, operacionais legais e de mercado envolvidos do desenvolvimento da aplicação web. É uma forma de avaliar se o seu plano do projeto pode dar certo ou não, ou seja, verifica se é possível ou não avançar com ele.
 ## Viabilidade de mercado
@@ -156,16 +154,11 @@ Não haverá custos, pois o sistema será desenvolvido pelos alunos.
 ## Fontes de receita
 Não haverá receita, pois é um projeto acadêmico.
 # Design
-## Paleta de cores
-A paleta de cores foi escolhida com base nas cores que foram utilizadas no design da clinica.
-# !!!! adicionar diagrama !!!!
 ## Tipografia
 A família de fontes utilizada é "Nunito", Arial, Helvetica, sans-serif.
 ## Logo
 O tipo de identidade visual da marca escolhido é logotipo, onde é usada pela clínica microfisioterapeuta do Dr. João Henrique Chacon.
-# !!!! adicionar logo !!!!
-## Modelo de navegação
-# !!! adicionar diagrama !!!!
+[readme/logo.jpeg]
 ## Prototipo
 Figma: [www.figma.com/design/RZThhBFPs1qPewubhhMgeO/PI-3-semestre?t=o5ZQYcXFgd21FyEB-0](http://www.figma.com/design/RZThhBFPs1qPewubhhMgeO/PI-3-semestre?t=o5ZQYcXFgd21FyEB-0)
 # !!! adicionar diagrama !!!!
