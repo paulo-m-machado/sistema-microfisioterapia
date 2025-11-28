@@ -1,0 +1,77 @@
+@model IEnumerable<MeuSiteEmMVC.Models.Anamnese>
+
+@{
+    ViewData["Title"] = "Histórico";
+    Layout = "_Layout";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/paciente.css" />
+}
+
+<div class="pacientes-container">
+    <div class="pacientes-header">
+        <h1>Histórico</h1>
+    </div>
+
+    <div class="search-container">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Pesquisar pacientes..." class="search-input">
+            <button class="search-button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M21 21L16.65 16.65" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <div class="pacientes-table-container">
+        <table class="pacientes-table">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Queixa</th>
+                    <th>Sintomas</th>
+                    <th>Exames</th>
+                    <th>Hipoteses</th>
+                    <th>Evolução</th>
+                    <th>Plano Teurapeutico</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Data</td>
+                        <td>@item.Queixa</td>
+                        <td>@item.Sintomas</td>
+                        <td>@item.Exames</td>
+                        <td>@item.Hipoteses</td>
+                        <td>@item.Evolucao</td>
+                        <td>@item.PlanoTeurapeutico</td>
+                        <td class="">
+                            <a asp-controller="Anamnese" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-salvar">Ver Anamnese</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Função de busca em tempo real
+        document.getElementById('searchInput').addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase();
+            const rows = document.querySelectorAll('.pacientes-table tbody tr');
+
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                row.style.display = text.includes(searchTerm) ? '' : 'none';
+            });
+        });
+    </script>
+}

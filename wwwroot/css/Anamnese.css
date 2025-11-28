@@ -1,0 +1,387 @@
+/* Estilos para a tela de Anamnese */
+.anamnese-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Cards */
+.anamnese-form-card,
+.anamnese-list-card {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalhos */
+.anamnese-form-card h2,
+.anamnese-list-card h2 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #eee;
+}
+
+/* Grid do formulário */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .form-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .form-field-full {
+    grid-column: 1 / -1;
+  }
+}
+
+/* Campos do formulário */
+.form-field {
+  margin-bottom: 1rem;
+}
+
+.form-field label {
+  font-weight: 500;
+  margin-bottom: 0.375rem;
+  color: #495057;
+}
+
+.form-control,
+.form-select,
+.form-textarea {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-textarea:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Textarea */
+textarea.form-control,
+textarea.form-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Ações do formulário */
+.form-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  flex-wrap: wrap;
+}
+
+/* Tabela de histórico */
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  background-color: #f8f9fa;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* Botões de ação na tabela */
+.btn-action {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  transition: all 0.2s;
+}
+
+/* Responsividade */
+@media (max-width: 767.98px) {
+  .anamnese-wrap {
+    padding: 0.75rem;
+  }
+  
+  .anamnese-form-card,
+  .anamnese-list-card {
+    padding: 1rem;
+  }
+  
+  .form-actions {
+    flex-direction: column;
+  }
+  
+  .btn {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.anamnese-form-card,
+.anamnese-list-card {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Estado vazio */
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  color: #6c757d;
+}
+
+.empty-state i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+/* Ajustes para o datalist personalizado */
+.paciente-search-container {
+  position: relative;
+}
+
+/* Barra de busca */
+.search-bar {
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  max-width: 800px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.375rem;
+  font-size: 0.9375rem;
+  transition: all 0.2s;
+  background-color: #fff;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: #6c757d;
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.1);
+}
+
+.search-bar button {
+  background-color: #0F766E; /* Cor principal do tema */
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search-bar button:hover {
+  background-color: #0D6A63; /* Tom um pouco mais escuro no hover */
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar button:active {
+  transform: translateY(0);
+}
+
+.search-bar button i {
+  font-size: 1rem;
+}
+
+.paciente-search-results {
+  position: absolute;
+  width: 100%;
+  max-height: 300px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  display: none;
+}
+
+.paciente-search-results.show {
+  display: block;
+}
+
+.paciente-item {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.paciente-item:hover {
+  background-color: #f8f9fa;
+}
+
+.paciente-item.active {
+  background-color: #e9ecef;
+}
+
+/* Melhorias de acessibilidade */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Estilo para os botões de ação */
+.btn-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.btn-action i {
+  font-size: 14px;
+}
+
+/* Ajustes para o formulário de anamnese */
+.anamnese-form-card {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+}
+
+/* Estilo para os cards de histórico */
+.history-item {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #e9ecef;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.history-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.history-date {
+  font-size: 0.875rem;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+.history-summary {
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: #495057;
+  margin-bottom: 0.75rem;
+}
+
+.history-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+.form-field-full { grid-column: 1 / -1; }
+
+@media (max-width: 600px) { .form-grid { grid-template-columns: 1fr; } }
+
+.form-field label { font-weight: 600; color: #334155; font-size: 14px; }
+.form-field input,
+.form-field select,
+.form-field textarea { border: 1px solid #E5E7EB; border-radius: 6px; padding: 10px 12px; font-size: 14px; outline: none; }
+.form-field textarea { min-height: 140px; }
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus { border-color: var(--cor-secundaria); box-shadow: 0 0 0 3px rgba(14,165,167,0.15); }
+
+.form-actions { display: flex; gap: 10px; margin-top: 10px; }
+
+.btn-primary { background: var(--cor-primaria); color: #fff; border: none; padding: 10px 14px; border-radius: 6px; font-weight: 600; cursor: pointer; }
+.btn-primary:hover { filter: brightness(0.95); }
+
+.btn-secondary { background: #fff; color: var(--cor-primaria); border: 1px solid var(--cor-primaria); padding: 10px 14px; border-radius: 6px; font-weight: 600; cursor: pointer; }
+
+.btn-ghost { background: transparent; color: #475569; border: 1px solid #CBD5E1; padding: 10px 14px; border-radius: 6px; cursor: pointer; }
+
+.list-header { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 10px; }
+.list-header input[type="search"] { flex: 1; border: 1px solid #E5E7EB; border-radius: 8px; padding: 10px 12px; }
+
+.table-wrap { overflow-x: auto; }
+
+table { width: 100%; border-collapse: collapse; }
+
+thead th { text-align: left; font-size: 14px; background: #F8FAFC; border-bottom: 1px solid #E5E7EB; color: #334155; padding: 10px 8px; user-select: none; }
+
+thead th[data-col] { cursor: pointer; }
+
+tbody td { padding: 10px 8px; border-bottom: 1px solid #F1F5F9; color: #334155; font-size: 14px; }
+
+a.acao { display: inline-block; font-size: 13px; color: var(--cor-primaria); margin-right: 10px; text-decoration: none; }
+
+a.acao:hover { text-decoration: underline; }
+
+@media (max-width: 700px) {
+  .list-header { flex-direction: column; align-items: stretch; }
+  .list-header h2 { margin-bottom: 6px; }
+}
+
+@media (max-width: 600px) {
+  thead th, tbody td { font-size: 13px; padding: 8px 6px; }
+}

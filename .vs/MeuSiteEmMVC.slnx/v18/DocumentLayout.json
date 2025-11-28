@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\MeuSiteEmMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|e:\\meusiteemmvc\\controllers\\anamnesecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|solutionrelative:controllers\\anamnesecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|e:\\meusiteemmvc\\views\\pacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|solutionrelative:views\\pacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|e:\\meusiteemmvc\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|solutionrelative:controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|e:\\meusiteemmvc\\controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|solutionrelative:controllers\\agendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|e:\\meusiteemmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|e:\\meusiteemmvc\\views\\anamnese\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|solutionrelative:views\\anamnese\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|e:\\meusiteemmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|e:\\meusiteemmvc\\views\\agenda\\agendacompleta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|solutionrelative:views\\agenda\\agendacompleta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|e:\\meusiteemmvc\\views\\agenda\\agendamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4761A11-761F-B4CA-CE00-1D299CADCF9D}|MeuSiteEmMVC.csproj|solutionrelative:views\\agenda\\agendamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\MeuSiteEmMVC\\Views\\Pacientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\Create.cshtml",
+              "ToolTip": "E:\\MeuSiteEmMVC\\Views\\Pacientes\\Create.cshtml",
+              "RelativeToolTip": "Views\\Pacientes\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T05:30:56.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PacientesController.cs",
+              "DocumentMoniker": "E:\\MeuSiteEmMVC\\Controllers\\PacientesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PacientesController.cs",
+              "ToolTip": "E:\\MeuSiteEmMVC\\Controllers\\PacientesController.cs",
+              "RelativeToolTip": "Controllers\\PacientesController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T05:30:31.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\MeuSiteEmMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\MeuSiteEmMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T05:29:07.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnamneseController.cs",
+              "DocumentMoniker": "E:\\MeuSiteEmMVC\\Controllers\\AnamneseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnamneseController.cs",
+              "ToolTip": "E:\\MeuSiteEmMVC\\Controllers\\AnamneseController.cs",
+              "RelativeToolTip": "Controllers\\AnamneseController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAmwIQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T05:27:35.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\MeuSiteEmMVC\\Views\\Anamnese\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Anamnese\\Index.cshtml",
+              "ToolTip": "E:\\MeuSiteEmMVC\\Views\\Anamnese\\Index.cshtml",
+              "RelativeToolTip": "Views\\Anamnese\\Index.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T05:27:12.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgendaController.cs",
+              "DocumentMoniker": "E:\\MeuSiteEmMVC\\Controllers\\AgendaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AgendaController.cs",
+              "ToolTip": "E:\\MeuSiteEmMVC\\Controllers\\AgendaController.cs",
+              "RelativeToolTip": "Controllers\\AgendaController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T05:19:27.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Agendamento.cshtml",
+              "DocumentMoniker": "E:\\MeuSiteEmMVC\\Views\\Agenda\\Agendamento.cshtml",
+              "RelativeDocumentMoniker": "Views\\Agenda\\Agendamento.cshtml",
+              "ToolTip": "E:\\MeuSiteEmMVC\\Views\\Agenda\\Agendamento.cshtml",
+              "RelativeToolTip": "Views\\Agenda\\Agendamento.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAPoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T05:18:01.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AgendaCompleta.cshtml",
+              "DocumentMoniker": "E:\\MeuSiteEmMVC\\Views\\Agenda\\AgendaCompleta.cshtml",
+              "RelativeDocumentMoniker": "Views\\Agenda\\AgendaCompleta.cshtml",
+              "ToolTip": "E:\\MeuSiteEmMVC\\Views\\Agenda\\AgendaCompleta.cshtml",
+              "RelativeToolTip": "Views\\Agenda\\AgendaCompleta.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwCgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T05:17:56.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\MeuSiteEmMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\MeuSiteEmMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T05:17:16.686Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

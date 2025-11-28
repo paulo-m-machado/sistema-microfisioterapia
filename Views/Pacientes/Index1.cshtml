@@ -1,0 +1,80 @@
+﻿@model IEnumerable<MeuSiteEmMVC.Models.Paciente>
+
+@{
+    ViewData["Title"] = "Pacientes";
+    Layout = "_Layout";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/paciente.css" />
+}
+
+<div class="pacientes-container">
+    <div class="pacientes-header">
+        <h1>Pacientes</h1>
+    </div>
+
+    <div class="search-container">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Pesquisar pacientes..." class="search-input">
+            <button class="search-button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21 21L16.65 16.65" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <div class="pacientes-table-container">
+        <table class="pacientes-table">
+            <thead>
+                <tr>
+                    <th>Paciente</th>
+                    <th>CPF</th>
+                    <th>Telefone</th>
+                    <th>Data de Nascimento</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model) {
+                    <tr>
+                        <td>
+                            <div class="paciente-info">
+                                <div class="paciente-avatar">
+                                    @item.Nome.Substring(0, 1).ToUpper()
+                                </div>
+                                <div class="paciente-detalhes">
+                                    <span class="paciente-nome">@item.Nome</span>
+                                    <span class="paciente-email">@item.Email</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td>@item.CPF</td>
+                        <td>@item.Telefone</td>
+                        <td>@(item.DataNascimento?.ToString("dd/MM/yyyy") ?? "Não informada")</td>
+                        <td class="">
+                            <a asp-controller="Anamnese" asp-action="Create" asp-route-id="@item.Id" class="btn btn-salvar">Iniciar Anamnese</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Função de busca em tempo real
+        document.getElementById('searchInput').addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase();
+            const rows = document.querySelectorAll('.pacientes-table tbody tr');
+            
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                row.style.display = text.includes(searchTerm) ? '' : 'none';
+            });
+        });
+    </script>
+}

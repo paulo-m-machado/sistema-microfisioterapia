@@ -1,0 +1,233 @@
+/* Estilos gerais */
+:root {
+    --primary-color: #0F766E;
+    --primary-hover: #0D6A63;
+    --secondary-color: #0EA5A7;
+    --text-color: #1F2937;
+    --light-gray: #F3F4F6;
+    --border-color: #E5E7EB;
+    --white: #FFFFFF;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: #F9FAFB;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--shadow);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo img {
+    height: 90px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Conteúdo principal */
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Seção de informações rápidas */
+.info-rapidas-box {
+    margin-bottom: 2rem;
+}
+
+.info-rapidas-box h2 {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+/* Card de agenda do dia */
+.agenda-hoje-card {
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.agenda-hoje-card h3 {
+    margin-top: 0;
+    color: var(--text-color);
+    font-size: 1.25rem;
+}
+
+.week-label {
+    background-color: var(--light-gray);
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+/* Botões */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+}
+
+.btn-ghost {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.btn-ghost:hover {
+    background-color: rgba(15, 118, 110, 0.1);
+}
+
+.btn-secondary {
+    background-color: var(--light-gray);
+    color: var(--text-color);
+}
+
+.btn-secondary:hover {
+    background-color: #E5E7EB;
+}
+
+/* Lista de agenda */
+.agenda-day-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+/* Blocos inferiores */
+.blocos-inferiores {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.bloco-item {
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+}
+
+.bloco-item h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    font-size: 1.25rem;
+}
+
+/* Mini calendário */
+.mini-cal {
+    font-family: Arial, sans-serif;
+}
+
+.mini-cal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.mini-cal-label {
+    font-weight: 600;
+}
+
+.mini-cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.25rem;
+    text-align: center;
+}
+
+.dow {
+    font-weight: 600;
+    font-size: 0.75rem;
+    color: #6B7280;
+    padding: 0.5rem 0;
+}
+
+.mini-cal-day {
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.mini-cal-day:hover {
+    background-color: var(--light-gray);
+}
+
+.mini-cal-day.today {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .nav-menu {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .blocos-inferiores {
+        grid-template-columns: 1fr;
+    }
+}

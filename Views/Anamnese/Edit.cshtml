@@ -1,0 +1,73 @@
+﻿@model MeuSiteEmMVC.Models.Anamnese
+
+@{
+    ViewData["Title"] = "Editar";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/paciente.css" />
+}
+
+<div class="container-paciente"> 
+    <div class="header-paciente">
+        <h1>Editar Anamnese</h1>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" asp-for="Paciente" />
+                <div class="form-group">
+                    <label asp-for="Data" class="control-label"></label>
+                    <input type="text" asp-for="Data" class="form-control" />
+                    <span asp-validation-for="Data" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Queixa" class="control-label"></label>
+                    <textarea asp-for="Queixa" class="form-control"></textarea>
+                    <span asp-validation-for="Queixa" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Sintomas" class="control-label"></label>
+                    <textarea asp-for="Sintomas" class="form-control"></textarea>
+                    <span asp-validation-for="Sintomas" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Historico" class="control-label"></label>
+                    <textarea asp-for="Historico" class="form-control"></textarea>
+                    <span asp-validation-for="Historico" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Exames" class="control-label"></label>
+                    <textarea asp-for="Exames" class="form-control"></textarea>
+                    <span asp-validation-for="Exames" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Hipoteses" class="control-label"></label>
+                    <textarea asp-for="Hipoteses" class="form-control"></textarea>
+                    <span asp-validation-for="Hipoteses" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Evolucao" class="control-label"></label>
+                    <textarea asp-for="Evolucao" class="form-control"></textarea>
+                    <span asp-validation-for="Evolucao" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="PlanoTeurapeutico" class="control-label"></label>
+                    <textarea asp-for="PlanoTeurapeutico" class="form-control"></textarea>
+                    <span asp-validation-for="PlanoTeurapeutico" class="text-danger"></span>
+                </div>
+                <div class="form-actions">
+                    <input type="submit" value="Salvar" class="btn btn-salvar" />
+                    <a asp-controller="Anamnese" asp-action="Historico" class="btn btn-outline-secondary">Voltar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

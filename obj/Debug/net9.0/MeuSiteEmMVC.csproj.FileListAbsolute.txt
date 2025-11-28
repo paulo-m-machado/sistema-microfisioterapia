@@ -1,0 +1,720 @@
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\appsettings.json
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\MeuSiteEmMVC.staticwebassets.runtime.json
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\MeuSiteEmMVC.staticwebassets.endpoints.json
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\MeuSiteEmMVC.exe
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\MeuSiteEmMVC.deps.json
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\MeuSiteEmMVC.runtimeconfig.json
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\MeuSiteEmMVC.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\MeuSiteEmMVC.pdb
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\DnsClient.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Humanizer.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Build.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\MongoDB.Bson.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\MongoDB.Driver.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.Common.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.Configuration.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.Frameworks.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.LibraryModel.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.Packaging.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.ProjectModel.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.Protocol.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.Versioning.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\SharpCompress.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\Snappier.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ZstdSharp.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\af\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ar\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\az\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\bg\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\cs\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\da\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\de\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\el\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\es\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\fa\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\fr\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\he\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\hr\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\hu\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\hy\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\id\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\is\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\it\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ja\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ku\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\lv\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\mt\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\nb\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\nl\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pl\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pt\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ro\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ru\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\sk\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\sl\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\sr\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\sv\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\tr\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\uk\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\vi\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.csproj.AssemblyReference.cache
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.AssemblyInfoInputs.cache
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.AssemblyInfo.cs
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.csproj.CoreCompileInputs.cache
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.RazorAssemblyInfo.cache
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.RazorAssemblyInfo.cs
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.sourcelink.json
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\scopedcss\bundle\MeuSiteEmMVC.styles.css
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\scopedcss\projectbundle\MeuSiteEmMVC.bundle.scp.css
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\it40updfdj-hekz7xn9yw.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\zfubmjcb2s-sg76wfxhzm.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\x4636wtqh0-ztk9m7kyhj.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\e8uq0b6vpi-2n29zxej2q.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\x57aiydmxv-tr50yf4x5h.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\j4xdkftea0-pzhya0q3b4.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\w6w1vjeq3d-2d5b7gyj1y.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\nyn701zicr-z7k186d8bw.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\u1xpai7egj-61n19gt1b8.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\7ld2ub6yb4-xrllaarso2.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\reygla6kcn-s16l9v52f3.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\u6cctktg4t-9lp14h5qyu.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\qpaqg2sc3h-48kafqfoe9.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\kou2h08bd5-qeuar1z1dc.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\uhgapokudv-m9g42wrrqf.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\q6joiblqu2-sj8r7f4jj9.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\9wggvmiw89-ecwibfjmow.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\5tago0f71a-homz1iebvw.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\r66c66jq3l-xtxxf3hu2r.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\rrt074zu9w-bqjiyaj88i.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\sbx8wmdaio-c2jlpeoesf.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\iu4bptzl4p-erw9l3u2r3.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\9opjsx86tl-aexeepp0ev.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\fis1bdrool-d7shbmvgxk.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\22i31vd3t4-ausgxo2sd3.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\hqjtb47848-k8d9w2qqmf.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\cz55cixspx-cosvhxvwiu.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\aqc77jwugo-ub07r2b239.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\9v6njt4qew-fvhpjtyr6v.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\rkmtxhf0yd-b7pk76d08c.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\3xpr8p6ooz-fsbi9cje9m.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\lec9jto6um-rzd6atqjts.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\b7y69ycl6r-ee0r1s7dh0.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\svo6m4qapo-dxx9fxp4il.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\juns2ev0zt-jd9uben2k1.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\fswufp375x-khv3u5hwcm.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\ikxa6iuv17-r4e9w2rdcm.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\ywe87e8s26-lcd1t2u6c8.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\k2ab1m92t0-c2oey78nd0.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\7ktlxjoqtv-tdbxkamptv.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\8qo3w4lsja-j5mq2jizvt.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\lqo9shz5j0-06098lyss8.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\zvub4knsfb-nvvlpmu67g.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\xya3gcfrv4-s35ty4nyc5.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\pl68hxe8nd-pj5nd1wqec.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\59055qfv7l-46ein0sx1k.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\6ugmy0wslz-v0zj4ognzu.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\75jjg4g1rv-37tfw0ft22.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\9vx89hb17t-hrwsygsryq.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\o5942lpa6f-pk9g2wxc8p.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\jzempy6tkz-ft3s53vfgj.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\ngdpd8nrjf-6cfz1n2cew.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\smu790kkms-6pdc2jztkx.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\vku76oqp88-493y06b0oq.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\o5brl3awkf-iovd86k7lj.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\7elmbnlzza-vr1egmr9el.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\e074wlq80n-kbrnm935zg.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\zbntgm2wa0-jj8uyg4cgr.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\hicphf8vk5-y7v9cxd14o.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\bjnp5k0rdg-notf2xhcfb.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\1ou81hs4s9-h1s4sie4z3.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\friq3tj5w3-63fj8s7r0e.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\2k7d0aslm0-0j3bgjxly4.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\5r0vpxcpcd-47otxtyo56.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\6rizla8fl5-4v8eqarkd7.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\qdh4x73dr8-356vix0kms.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\n0j6e9ss6x-83jwlth58m.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\vamlxlha49-mrlpezrjn3.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\4dbqdvj35g-lzl9nlhx6b.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\yhe6igdkf6-ag7o75518u.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\fnho65u77u-x0q3zqp4vz.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\spg2j22ot0-0i3buxo5is.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\ry7kwdpiif-o1o13a6vjx.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\tj8p2dqf9s-ttgo8qnofa.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\turvwf29q7-2z0ns9nrw6.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\hgxmx1pcer-muycvpuwrr.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\8idzrld9ow-87fc7y1x7t.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\qq6358800d-mlv21k5csn.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\ctmqc67flv-mz5m01ymzh.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\n1874s0dgi-mz5m01ymzh.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteE.C9262BE6.Up2Date
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\refint\MeuSiteEmMVC.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.pdb
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.genruntimeconfig.cache
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\ref\MeuSiteEmMVC.dll
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\b7ea6uupsk-g7h01dyh01.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\449ykqqcll-x78cx0375a.gz
+E:\MeuSiteEmMVC\bin\Debug\net9.0\appsettings.Development.json
+E:\MeuSiteEmMVC\bin\Debug\net9.0\appsettings.json
+E:\MeuSiteEmMVC\bin\Debug\net9.0\MeuSiteEmMVC.staticwebassets.runtime.json
+E:\MeuSiteEmMVC\bin\Debug\net9.0\MeuSiteEmMVC.staticwebassets.endpoints.json
+E:\MeuSiteEmMVC\bin\Debug\net9.0\MeuSiteEmMVC.exe
+E:\MeuSiteEmMVC\bin\Debug\net9.0\MeuSiteEmMVC.deps.json
+E:\MeuSiteEmMVC\bin\Debug\net9.0\MeuSiteEmMVC.runtimeconfig.json
+E:\MeuSiteEmMVC\bin\Debug\net9.0\MeuSiteEmMVC.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\MeuSiteEmMVC.pdb
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Azure.Core.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Azure.Identity.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\DnsClient.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Humanizer.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Build.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\MongoDB.Bson.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\MongoDB.Driver.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Mono.TextTemplating.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Newtonsoft.Json.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.Common.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.Configuration.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.Frameworks.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.LibraryModel.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.Packaging.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.ProjectModel.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.Protocol.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\NuGet.Versioning.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\SharpCompress.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\Snappier.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\System.ClientModel.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\System.CodeDom.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\System.Composition.Convention.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\System.Composition.Hosting.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\System.Composition.Runtime.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\System.Composition.TypedParts.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\System.Memory.Data.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\System.Runtime.Caching.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ZstdSharp.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\af\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ar\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\az\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\bg\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\cs\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\da\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\de\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\el\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\es\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\fa\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\fr\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\he\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\hr\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\hu\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\hy\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\id\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\is\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\it\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ja\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ku\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\lv\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\mt\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\nb\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\nl\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pl\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pt\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ro\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ru\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\sk\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\sl\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\sr\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\sv\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\tr\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\uk\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\vi\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MeuSiteEmMVC\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.csproj.AssemblyReference.cache
+E:\MeuSiteEmMVC\obj\Debug\net9.0\rpswa.dswa.cache.json
+E:\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.GeneratedMSBuildEditorConfig.editorconfig
+E:\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.AssemblyInfoInputs.cache
+E:\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.AssemblyInfo.cs
+E:\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.csproj.CoreCompileInputs.cache
+E:\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.MvcApplicationPartsAssemblyInfo.cache
+E:\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.RazorAssemblyInfo.cache
+E:\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.RazorAssemblyInfo.cs
+E:\MeuSiteEmMVC\obj\Debug\net9.0\rjimswa.dswa.cache.json
+E:\MeuSiteEmMVC\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+E:\MeuSiteEmMVC\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+E:\MeuSiteEmMVC\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\MeuSiteEmMVC\obj\Debug\net9.0\scopedcss\bundle\MeuSiteEmMVC.styles.css
+E:\MeuSiteEmMVC\obj\Debug\net9.0\scopedcss\projectbundle\MeuSiteEmMVC.bundle.scp.css
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\2wiap57lop-{0}-hekz7xn9yw-hekz7xn9yw.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\fy3pg5a77g-{0}-sg76wfxhzm-sg76wfxhzm.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\amlqqgi931-{0}-2n29zxej2q-2n29zxej2q.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\2rmi6p6uz7-{0}-tr50yf4x5h-tr50yf4x5h.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\mq7onsr666-{0}-pzhya0q3b4-pzhya0q3b4.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\ib7uqdjobg-{0}-2d5b7gyj1y-2d5b7gyj1y.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\jbj2dl88fn-{0}-z7k186d8bw-z7k186d8bw.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\l1iocnyzn6-{0}-61n19gt1b8-61n19gt1b8.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\nrxm3jolkg-{0}-xrllaarso2-xrllaarso2.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\re6tcd904h-{0}-s16l9v52f3-s16l9v52f3.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\ozv31s4kj1-{0}-9lp14h5qyu-9lp14h5qyu.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\wus4fz63s3-{0}-48kafqfoe9-48kafqfoe9.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\h4srx3f134-{0}-qeuar1z1dc-qeuar1z1dc.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\6860meo55p-{0}-m9g42wrrqf-m9g42wrrqf.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\1f8bywcanr-{0}-x78cx0375a-x78cx0375a.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\8r2xju5vvq-{0}-sj8r7f4jj9-sj8r7f4jj9.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\w7jqp3c8qq-{0}-ecwibfjmow-ecwibfjmow.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\ac7q6mf09f-{0}-homz1iebvw-homz1iebvw.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\b7bkkprdmi-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\3f9efdpsme-{0}-bqjiyaj88i-bqjiyaj88i.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\inofe1yfr2-{0}-c2jlpeoesf-c2jlpeoesf.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\m6e1nws3h3-{0}-erw9l3u2r3-erw9l3u2r3.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\73w5zqcd3t-{0}-aexeepp0ev-aexeepp0ev.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\jo8osmwq2f-{0}-d7shbmvgxk-d7shbmvgxk.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\6jib9imo8m-{0}-ausgxo2sd3-ausgxo2sd3.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\0325p0gen9-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\qd2fgrzk74-{0}-cosvhxvwiu-cosvhxvwiu.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\2eq1kw6yoq-{0}-ub07r2b239-ub07r2b239.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\hqjqh4icrj-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\l9ye2y2p53-{0}-b7pk76d08c-b7pk76d08c.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\kwefoqb4gd-{0}-fsbi9cje9m-fsbi9cje9m.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\72nwxrumcr-{0}-rzd6atqjts-rzd6atqjts.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\00qvl0vs37-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\e8ci7ypusc-{0}-dxx9fxp4il-dxx9fxp4il.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\247mydevoj-{0}-jd9uben2k1-jd9uben2k1.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\t36pugddk1-{0}-khv3u5hwcm-khv3u5hwcm.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\01j2v86gp3-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\o8mfi14w8v-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\c8w0bs4avy-{0}-c2oey78nd0-c2oey78nd0.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\3g6c6gnju5-{0}-tdbxkamptv-tdbxkamptv.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\szdlbcw8td-{0}-j5mq2jizvt-j5mq2jizvt.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\s6kavb5vmo-{0}-06098lyss8-06098lyss8.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\1vsxllu93c-{0}-nvvlpmu67g-nvvlpmu67g.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\k8eaxnciqi-{0}-s35ty4nyc5-s35ty4nyc5.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\uk3lmkyevl-{0}-pj5nd1wqec-pj5nd1wqec.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\b4tn32vaxf-{0}-46ein0sx1k-46ein0sx1k.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\4gbbovf9ou-{0}-v0zj4ognzu-v0zj4ognzu.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\pdixmjipsp-{0}-37tfw0ft22-37tfw0ft22.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\wv71alp0oq-{0}-hrwsygsryq-hrwsygsryq.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\pjkx0r9lgy-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\ti2vgcbvdk-{0}-ft3s53vfgj-ft3s53vfgj.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\y83oco7qf3-{0}-6cfz1n2cew-6cfz1n2cew.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\yuefiqhn47-{0}-6pdc2jztkx-6pdc2jztkx.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\p7skir4xt9-{0}-493y06b0oq-493y06b0oq.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\tsj1wwafth-{0}-iovd86k7lj-iovd86k7lj.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\b6046hd7qr-{0}-vr1egmr9el-vr1egmr9el.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\k5m9xtwfc7-{0}-kbrnm935zg-kbrnm935zg.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\2fc0msqxwz-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\yoz0uwde9c-{0}-y7v9cxd14o-y7v9cxd14o.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\qhaig4rxw4-{0}-notf2xhcfb-notf2xhcfb.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\3d4cou1mtk-{0}-h1s4sie4z3-h1s4sie4z3.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\ejcgc5zfi3-{0}-63fj8s7r0e-63fj8s7r0e.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\ehpc82z9gg-{0}-0j3bgjxly4-0j3bgjxly4.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\pees25g3b9-{0}-47otxtyo56-47otxtyo56.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\ns51h6xg2f-{0}-4v8eqarkd7-4v8eqarkd7.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\6czu64m70k-{0}-356vix0kms-356vix0kms.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\878z0ac6e5-{0}-83jwlth58m-83jwlth58m.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\syyzy9x4w4-{0}-mrlpezrjn3-mrlpezrjn3.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\xb5mj3wnrh-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\npt5cbjhq5-{0}-ag7o75518u-ag7o75518u.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\7xa6ebstka-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\c5ulcsooxo-{0}-0i3buxo5is-0i3buxo5is.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\41nli7um8k-{0}-o1o13a6vjx-o1o13a6vjx.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\b0xaoknw7q-{0}-ttgo8qnofa-ttgo8qnofa.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\yzjlg6t0yl-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\k75cqlq2gt-{0}-muycvpuwrr-muycvpuwrr.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\4f6vrudor4-{0}-87fc7y1x7t-87fc7y1x7t.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\wedeu4a81v-{0}-mlv21k5csn-mlv21k5csn.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\5mcgldfprq-{0}-9ny3qrtb8i-9ny3qrtb8i.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\dv1b1c7jeg-{0}-9ny3qrtb8i-9ny3qrtb8i.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\staticwebassets.build.json
+E:\MeuSiteEmMVC\obj\Debug\net9.0\staticwebassets.build.json.cache
+E:\MeuSiteEmMVC\obj\Debug\net9.0\staticwebassets.development.json
+E:\MeuSiteEmMVC\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+E:\MeuSiteEmMVC\obj\Debug\net9.0\swae.build.ex.cache
+E:\MeuSiteEmMVC\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+E:\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteE.C9262BE6.Up2Date
+E:\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.dll
+E:\MeuSiteEmMVC\obj\Debug\net9.0\refint\MeuSiteEmMVC.dll
+E:\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.pdb
+E:\MeuSiteEmMVC\obj\Debug\net9.0\MeuSiteEmMVC.genruntimeconfig.cache
+E:\MeuSiteEmMVC\obj\Debug\net9.0\ref\MeuSiteEmMVC.dll
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\isn1f81gp9-{0}-uf6nds4ppo-uf6nds4ppo.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\d1udzmrvc0-mesqgqayln.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\qnhkl8jbfv-uf6nds4ppo.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\y8o9wtc2j4-ctpl0mzxa4.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\kr17l6m6xc-pz0qzp7wom.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\6aqrhhs1gk-lz4u4sgm3i.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\rc7p5izixi-qwtjb7r9ij.gz
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Tamires\OneDrive\Área de Trabalho\PI-MICRO\INTERFACE-PI\INTERFACE-PI\sistema-microfisioterapia\MeuSiteEmMVC\obj\Debug\net9.0\compressed\y3ebunskdp-wnd19lv15l.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\twoz6t25z0-{0}-lz4u4sgm3i-lz4u4sgm3i.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\5hy69bhsnh-{0}-pz0qzp7wom-pz0qzp7wom.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\edqs8rl9bf-{0}-ctpl0mzxa4-ctpl0mzxa4.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\dj02tp73rp-{0}-9lf0nqnpbx-9lf0nqnpbx.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\qqdp55ikom-{0}-ekrqmxcelq-ekrqmxcelq.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\vnb6scor23-{0}-jb7qyayxv2-jb7qyayxv2.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\x8xylb61yt-{0}-l2rmxa8yo3-l2rmxa8yo3.gz
+E:\MeuSiteEmMVC\obj\Debug\net9.0\compressed\4236bzc8l7-{0}-2x6mnsrtfc-2x6mnsrtfc.gz

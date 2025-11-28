@@ -1,0 +1,79 @@
+﻿@model MeuSiteEmMVC.Models.Paciente
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/paciente.css" />
+}
+
+
+<div class="container-paciente">
+
+    <h1>Deletar</h1>
+
+    <div>
+        <h4>Você tem certeza que deseja deletar este paciente?</h4>
+        <hr />
+        <dl>
+            <dt class="col-sm-2">
+                Nome
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Nome)
+            </dd>
+            <dt class="col-sm-2">
+                Data de Nascimento
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.DataNascimento)
+            </dd>
+            <dt class="col-sm-2">
+                CPF
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.CPF)
+            </dd>
+            <dt class="col-sm-2">
+                Telefone
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Telefone)
+            </dd>
+            <dt class="col-sm-2">
+                Email
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+            <dt class="col-sm-2">
+                Endereço
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Endereco)
+            </dd>
+            <dt class="col-sm-2">
+                Observação
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Obs)
+            </dd>
+            <dt class="col-sm-2">
+                Data de Cadastro
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.DataCadastro)
+            </dd>
+        </dl>
+
+        <form asp-action="Delete" class="form-actions">
+            <input type="hidden" asp-for="Id" />
+            <input type="submit" value="Deletar" class="btn btn-danger" />
+            <a asp-action="Index" class="btn-cancelar">Voltar</a>
+        </form>
+    </div>
+
+</div>
+
+

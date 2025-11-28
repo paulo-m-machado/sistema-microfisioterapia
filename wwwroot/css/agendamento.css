@@ -1,0 +1,246 @@
+/* Estilos para a página de Agendamento */
+.agendamento-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+.agendamento-header {
+    background-color: #0d6efd;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 20px;
+}
+
+.agendamento-header h2 {
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Cartão do formulário */
+.agendamento-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+/* Cabeçalho do cartão */
+.agendamento-card-header {
+    background-color: #f8f9fa;
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+    font-weight: 600;
+}
+
+/* Corpo do cartão */
+.agendamento-card-body {
+    padding: 20px;
+}
+
+/* Grupos de formulário */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Campos de formulário */
+.form-control, .form-select {
+    border-radius: 6px;
+    padding: 10px 15px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Rótulos */
+.form-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #495057;
+}
+
+/* Botões */
+.btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: white;
+}
+
+/* Seção de navegação */
+.nav-section {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+/* Ícones */
+.bi {
+    margin-right: 8px;
+}
+
+/* Mensagens de validação */
+.invalid-feedback {
+    color: #dc3545;
+    font-size: 0.875em;
+    margin-top: 0.25rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .agendamento-container {
+        padding: 10px;
+    }
+    
+    .btn {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+    
+    .form-control, .form-select {
+        padding: 8px 12px;
+    }
+}
+
+/* Estilo para a grade de agendamento */n.agenda-grid {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.agenda-grid th, .agenda-grid td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: center;
+}
+
+.agenda-grid th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.agenda-grid .time-slot {
+    background-color: #f8f9fa;
+    font-weight: 500;
+}
+
+.agenda-grid .available {
+    background-color: #e8f5e9;
+    cursor: pointer;
+}
+
+.agenda-grid .available:hover {
+    background-color: #c8e6c9;
+}
+
+.agenda-grid .booked {
+    background-color: #ffebee;
+    cursor: not-allowed;
+}
+
+/* Estilo para o modal de confirmação */
+.modal-confirm {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.agendamento-card {
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Estilo para mensagens de sucesso/erro */n.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+
+.alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+
+/* Estilo para o botão de novo paciente */
+.btn-new-patient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+/* Ajustes para campos de data/hora */
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* Melhorias na acessibilidade */
+:focus-visible {
+    outline: 3px solid #86b7fe;
+    outline-offset: 2px;
+}
+
+/* Estilo para o rodapé do formulário */
+.form-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+}

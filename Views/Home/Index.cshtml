@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Início";
+    Layout = "_Layout";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/home.css" />
+}
+
+<main class="container">
+    <section class="info-rapidas-box">
+        <h2>Agendamento</h2>
+        <div style="display:flex; align-items:center; gap: 0.5rem;">
+            <span id="homeDayLabel" class="week-label">26/11/2025</span>
+            <a href="/Agenda/Agendamento?data=@DateTime.Today.ToString("yyyy-MM-dd")" class="btn btn-primary">Novo agendamento</a>
+            <a href="#" class="btn btn-ghost">Ver agenda completa</a>
+        </div>
+    </section>
+
+    <section class="blocos-inferiores">
+        <div class="bloco-item">
+            <h3>Pacientes</h3>
+            <a asp-controller="Pacientes" asp-action="Create" class="btn btn-primary" style="margin-top: 1rem;">Cadastrar Paciente</a>
+            <a asp-controller="Pacientes" asp-action="Index" class="btn btn-secondary" style="margin-top: 1rem;">Lista Pacientes</a>
+        </div>
+
+        <div class="bloco-item">
+            <h3>Anamnese</h3>
+            <a asp-controller="Pacientes" asp-action="Index1" class="btn btn-primary" style="margin-top: 1rem;">Registrar Anamnese</a>
+            <a asp-controller="Pacientes" asp-action="Index2" class="btn btn-secondary" style="margin-top: 1rem;">Histórico de Pacientes</a>
+        </div>
+
+        <div class="bloco-item">
+            <div class="mini-cal" id="miniCal">
+                <div class="mini-cal-header">
+                    <button id="calPrev" class="btn-ghost" style="border: none; background: none; cursor: pointer;">‹</button>
+                    <div id="calLabel" class="mini-cal-label">Novembro De 2025</div>
+                    <button id="calNext" class="btn-ghost" style="border: none; background: none; cursor: pointer;">›</button>
+                </div>
+                <div class="mini-cal-grid" aria-label="Calendário mensal" role="grid">
+                    <div class="dow" role="columnheader">Dom</div>
+                    <div class="dow" role="columnheader">Seg</div>
+                    <div class="dow" role="columnheader">Ter</div>
+                    <div class="dow" role="columnheader">Qua</div>
+                    <div class="dow" role="columnheader">Qui</div>
+                    <div class="dow" role="columnheader">Sex</div>
+                    <div class="dow" role="columnheader">Sáb</div>
+                    <div id="miniCalDays" class="mini-cal-days"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+@section Scripts {
+    <script src="~/js/home.js"></script>
+}

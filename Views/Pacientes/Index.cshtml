@@ -1,0 +1,99 @@
+﻿@model IEnumerable<MeuSiteEmMVC.Models.Paciente>
+
+@{
+    ViewData["Title"] = "Pacientes";
+    Layout = "_Layout";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/paciente.css" />
+}
+
+<div class="pacientes-container">
+    <div class="pacientes-header">
+        <h1>Pacientes</h1>
+        <div>
+            <a asp-action="Create" class="btn-novo-paciente">Novo Paciente</a>
+            <a asp-controller="Home" asp-action="Index" class="btn-voltar">Voltar</a>
+        </div>
+    </div>
+
+    <div class="search-container">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Pesquisar pacientes..." class="search-input">
+            <button class="search-button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21 21L16.65 16.65" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <div class="pacientes-table-container">
+        <table class="pacientes-table">
+            <thead>
+                <tr>
+                    <th>Paciente</th>
+                    <th>CPF</th>
+                    <th>Telefone</th>
+                    <th>Data de Nascimento</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model) {
+                    <tr>
+                        <td>
+                            <div class="paciente-info">
+                                <div class="paciente-avatar">
+                                    @item.Nome.Substring(0, 1).ToUpper()
+                                </div>
+                                <div class="paciente-detalhes">
+                                    <span class="paciente-nome">@item.Nome</span>
+                                    <span class="paciente-email">@item.Email</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td>@item.CPF</td>
+                        <td>@item.Telefone</td>
+                        <td>@(item.DataNascimento?.ToString("dd/MM/yyyy") ?? "Não informada")</td>
+                        <td class="">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn-editar">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.048 3.00002L4.06242 10.3242C3.78027 10.6276 3.49998 11.2235 3.44427 11.6211L3.01373 15.1875C2.87373 16.2774 3.72258 17.1188 4.81248 16.9932L8.3789 16.5625C8.76953 16.5157 9.35898 16.2198 9.64531 15.9141L16.6309 8.58989C17.8125 7.3555 18.2891 5.96097 16.4141 4.09377C14.5461 2.22657 13.2578 2.71489 12.0156 3.93752L11.048 3.00002ZM11.048 3.00002L15 6.95315" stroke="#4A4A4A" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.94141 4.20834C10.3004 6.47953 12.1276 8.25262 14.4062 8.56252" stroke="#4A4A4A" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2.5 18.3333H17.5" stroke="#4A4A4A" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn-excluir">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.875 4.375H3.125" stroke="#E74C3C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M8.125 8.75V14.375" stroke="#E74C3C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M11.875 8.75V14.375" stroke="#E74C3C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M4.375 4.375V16.25C4.375 17.0788 5.04619 17.75 5.875 17.75H14.125C14.9538 17.75 15.625 17.0788 15.625 16.25V4.375" stroke="#E74C3C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12.5 4.375V3.125C12.5 2.2962 11.8288 1.625 11 1.625H9C8.1712 1.625 7.5 2.2962 7.5 3.125V4.375" stroke="#E74C3C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Função de busca em tempo real
+        document.getElementById('searchInput').addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase();
+            const rows = document.querySelectorAll('.pacientes-table tbody tr');
+            
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                row.style.display = text.includes(searchTerm) ? '' : 'none';
+            });
+        });
+    </script>
+}

@@ -1,0 +1,252 @@
+﻿@{
+    ViewData["Title"] = "Agendamento de Consultas";
+    var hoje = DateTime.Today.ToString("yyyy-MM-dd");
+    var horaAtual = DateTime.Now.ToString("HH:00");
+}
+
+<style>
+    .form-control:focus, .form-select:focus {
+        border-color: var(--cor-primaria);
+        box-shadow: 0 0 0 0.25rem rgba(14, 165, 167, 0.25);
+    }
+    .input-group-text {
+        background-color: #f8f9fa;
+    }
+    .text-teal, .text-primary {
+        color: var(--cor-primaria) !important;
+    }
+    .btn-outline-teal {
+        color: var(--cor-primaria);
+        border-color: var(--cor-primaria);
+    }
+    .btn-outline-teal:hover {
+        color: #fff;
+        background-color: var(--cor-primaria);
+        border-color: var(--cor-primaria);
+    }
+    .btn-primary {
+        background-color: var(--cor-primaria);
+        border-color: var(--cor-primaria);
+    }
+    .btn-primary:hover {
+        background-color: #0f766e;
+        border-color: #0f766e;
+    }
+</style>
+
+<div class="container-fluid p-4">
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-light border-bottom">
+            <h4 class="mb-0 text-dark">
+                <i class="bi bi-calendar-plus text-teal"></i> Agendamento de Consultas
+            </h4>
+        </div>
+
+        <div class="card-body">
+            <!-- Controles de Navegação -->
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div class="d-flex align-items-center">
+                    <button id="btnPrev" class="btn btn-outline-teal me-2">
+                        <i class="bi bi-chevron-left"></i> Anterior
+                    </button>
+                    <button id="btnToday" class="btn btn-outline-secondary me-3">
+                        Hoje
+                    </button>
+                    <button id="btnNext" class="btn btn-outline-teal me-3">
+                        Próximo <i class="bi bi-chevron-right"></i>
+                    </button>
+                    <h5 id="weekLabel" class="mb-0 fw-bold text-muted">
+                        @DateTime.Today.ToString("dd/MM/yyyy")
+                    </h5>
+                </div>
+            </div>
+
+            <!-- Formulário de Agendamento -->
+            <div class="card mb-4 border-light shadow-sm">
+                <div class="card-header bg-light border-bottom">
+                    <h5 class="mb-0 text-dark">
+                        <i class="bi bi-journal-plus text-teal"></i> Nova Consulta
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <form id="agendaForm" class="needs-validation" novalidate>
+                        <input type="hidden" id="consultaId" />
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="agendaPacienteSearch" class="form-label">Paciente *</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-person"></i>
+                                    </span>
+                                    <input type="search" class="form-control" id="agendaPacienteSearch"
+                                           list="pacientesList" placeholder="Digite o nome do paciente" required>
+                                    <datalist id="pacientesList"></datalist>
+                                    <button class="btn btn-primary" type="button" id="btnNovoPaciente">
+                                        <i class="bi bi-plus-lg"></i> Novo
+                                    </button>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Por favor, selecione um paciente.
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <label for="agendaData" class="form-label">Data *</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-calendar"></i>
+                                    </span>
+                                    <input type="date" class="form-control" id="agendaData"
+                                           value="@hoje" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <label for="agendaHora" class="form-label">Hora *</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-clock"></i>
+                                    </span>
+                                    <input type="time" class="form-control" id="agendaHora"
+                                           value="@horaAtual" required>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="agendaTipo" class="form-label">Tipo de Atendimento *</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-clipboard2-pulse"></i>
+                                    </span>
+                                    <select id="agendaTipo" class="form-select" required>
+                                        <option value="">Selecione...</option>
+                                        <option value="Avaliação">Avaliação</option>
+                                        <option value="Consulta" selected>Consulta</option>
+                                        <option value="Retorno">Retorno</option>
+                                        <option value="Tratamento">Tratamento</option>
+                                        <option value="Outro">Outro</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="agendaStatus" class="form-label">Status *</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-check-circle"></i>
+                                    </span>
+                                    <select id="agendaStatus" class="form-select" required>
+                                        <option value="Agendada" selected>Agendada</option>
+                                        <option value="Confirmada">Confirmada</option>
+                                        <option value="Concluída">Concluída</option>
+                                        <option value="Cancelada">Cancelada</option>
+                                        <option value="Faltou">Faltou</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="agendaObs" class="form-label">Observações</label>
+                                <textarea id="agendaObs" class="form-control" rows="3"
+                                          placeholder="Informações adicionais sobre a consulta"></textarea>
+                            </div>
+
+                            <div class="col-12 mt-3">
+                                <div class="d-flex justify-content-end gap-2">
+                                    <button type="button" class="btn btn-secondary" id="btnCancelarEdicao" style="display:none;">
+                                        <i class="bi bi-x-lg"></i> Cancelar Edição
+                                    </button>
+                                    <button type="button" class="btn btn-outline-danger" id="btnCancelarConsulta" style="display:none;">
+                                        <i class="bi bi-x-circle"></i> Cancelar Consulta
+                                    </button>
+                                    <button type="submit" class="btn btn-primary" id="btnSalvar">
+                                        <i class="bi bi-save"></i> Salvar Consulta
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Visualização da Agenda -->
+            <div class="card">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">
+                        <i class="bi bi-calendar-week"></i> Agenda
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover" id="tabelaAgendaSemana">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Horário</th>
+                                    <th>Segunda</th>
+                                    <th>Terça</th>
+                                    <th>Quarta</th>
+                                    <th>Quinta</th>
+                                    <th>Sexta</th>
+                                    <th>Sábado</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tabelaAgendaSemanaBody">
+                                <!-- As linhas serão preenchidas via JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal de Confirmação -->
+<div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmModalLabel">Confirmar Ação</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+            </div>
+            <div class="modal-body" id="confirmModalBody">
+                Tem certeza que deseja continuar?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" id="confirmModalButton">Confirmar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/agendamento.js" asp-append-version="true"></script>
+    <script>
+        // Inicialização adicional pode ser feita aqui
+        document.addEventListener('DOMContentLoaded', function() {
+            // Inicialização do tooltip do Bootstrap
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+            
+            // Inicialização do datepicker
+            if (flatpickr) {
+                flatpickr("input[type='date']", {
+                    dateFormat: "Y-m-d",
+                    allowInput: true,
+                    locale: "pt"
+                });
+                
+                flatpickr("input[type='time']", {
+                    enableTime: true,
+                    noCalendar: true,
+                    dateFormat: "H:i",
+                    time_24hr: true
+                });
+            }
+        });
+    </script>
+}
