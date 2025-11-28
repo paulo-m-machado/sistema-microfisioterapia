@@ -109,9 +109,9 @@ Com o usuário cadastrado e logado o sistema deve permitir que possa ser feita a
 - Tipo: Primário
 - Descrição: Usuário, já cadastrado na plataforma, tem a opção realizar um agendamento de consulta com o profissional clínico. O Usuário após ter realizado o agendamento da consulta poderá cancelar o atendimento ou editar o dia e hora da consulta.
 # Diagrama de classes
-[readme/classes.jpeg]
+[diagrama de classes](readme/classes.jpeg)
 # Modelo de banco de dados
-[readme/db.png]
+[db](readme/db.png)
 # Estudo de viabilidade
 Há como objetivo analisar os aspectos técnicos, econômicos, operacionais legais e de mercado envolvidos do desenvolvimento da aplicação web. É uma forma de avaliar se o seu plano do projeto pode dar certo ou não, ou seja, verifica se é possível ou não avançar com ele.
 ## Viabilidade de mercado
@@ -158,10 +158,9 @@ Não haverá receita, pois é um projeto acadêmico.
 A família de fontes utilizada é "Nunito", Arial, Helvetica, sans-serif.
 ## Logo
 O tipo de identidade visual da marca escolhido é logotipo, onde é usada pela clínica microfisioterapeuta do Dr. João Henrique Chacon.
-[readme/logo.jpeg]
+[logo](readme/logo.jpeg)
 ## Prototipo
 Figma: [www.figma.com/design/RZThhBFPs1qPewubhhMgeO/PI-3-semestre?t=o5ZQYcXFgd21FyEB-0](http://www.figma.com/design/RZThhBFPs1qPewubhhMgeO/PI-3-semestre?t=o5ZQYcXFgd21FyEB-0)
-# !!! adicionar diagrama !!!!
 # Considerações finais
  No decorrer do desenvolvimento desse projeto tivemos alguns imprevistos, como a falta de conhecimento sobre a nova linguagem do terceiro semestre, sendo de grande ajuda posteriormente a readaptação e a integração de uma nova pessoa no grupo.
 
