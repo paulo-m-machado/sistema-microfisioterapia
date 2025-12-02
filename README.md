@@ -138,7 +138,7 @@ A viabilidade operacional do projeto envolveu a analisar as condições prática
 O estudo de viabilidade do projeto demonstrou que a plataforma é viável tanto tecnicamente quanto operacionalmente. A necessidade de haver uma plataforma que informatize sobre microfisioterapia, e seus benefícios, onde o usuário possa ser capaz de agendar consulta nos dias disponíveis, e ser possível para o médico especializado registrar o formulário dos pacientes, sendo possível edita-los e excluí-los de acordo com a consulta. A infraestrutura fornecida pela Fatec-Jahu e o uso de ferramentas gratuitas garantem a execução do projeto dentro dos recursos disponíveis. Além, de ser um projeto de natureza educacional, não exige investimentos financeiros. Resumindo o projeto, existem condições de ser desenvolvido e gerar um impacto positivo para os futuros usuários da cidade de Jahu.
 # Regra de negócio
 ## Modelo de negócio
-![Modelo](readme/modelo-canva.jpeg)
+![Modelo](readme/modelo-canva.png)
 ## Proposta de valor
 Será desenvolvida uma plataforma informativa e interativa de atendimento clínico, promovendo a informatização da microfisioterapia e facilitando o agendamento de consultas de acordo com os sintomas dos usuários.
 ## Segmento de Clientes
