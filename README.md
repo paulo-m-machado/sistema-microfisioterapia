@@ -164,6 +164,8 @@ Não haverá receita, pois é um projeto acadêmico.
 A família de fontes utilizada é "Nunito", Arial, Helvetica, sans-serif.
 ## Logo
 O tipo de identidade visual da marca escolhido é logotipo, onde é usada pela clínica microfisioterapeuta do Dr. João Henrique Chacon.
+
+
 ![logo](readme/logo.jpeg)
 ## Prototipo
 Figma: [www.figma.com/design/RZThhBFPs1qPewubhhMgeO/PI-3-semestre?t=o5ZQYcXFgd21FyEB-0](http://www.figma.com/design/RZThhBFPs1qPewubhhMgeO/PI-3-semestre?t=o5ZQYcXFgd21FyEB-0)
