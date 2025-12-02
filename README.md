@@ -1,5 +1,5 @@
 # Sistema Microfisioterapia
-# Sumario (a fazer)
+# Sumario
 1. [Introdução](#Introdução)
 	1. [Metodos utilizados](##Metodos-utilizados)
 2. [Objetivos](#Objetivos)
@@ -34,19 +34,21 @@
 	3. [Viabilidade operacional](##Viabilidade-operacional)
 	4. [Conclusão do estudo de viabilidade](##Conclusão-do-estudo-de-viabilidade)
 9. [Regra de negócio](#Regra-de-negócio)
-	1. [Proposta de valor](##Proposta-de-valor)
-	2. [Segmento de Clientes](Segmento-de-Clientes)
-	3. [Canais de distribuição](##Canais-de-distribuição)
-	4. [Relacionamento com clientes](##Relacionamento-com-clientes)
-	5. [Atividades principais](##Atividades-principais)
-	6. [Parcerias principais](##Parcerias-principais)
-	7. [Recursos príncipais](##Recursos-príncipais)
-	8. [Estrutra de custos](##Estrutra-de-custos)
-	9. [Fontes de receita](##Fontes-de-receita)
+	1. [Modelo de negócio](##modelo-de-negócio)
+	2. [Proposta de valor](##Proposta-de-valor)
+	3. [Segmento de Clientes](Segmento-de-Clientes)
+	4. [Canais de distribuição](##Canais-de-distribuição)
+	5. [Relacionamento com clientes](##Relacionamento-com-clientes)
+	6. [Atividades principais](##Atividades-principais)
+	7. [Parcerias principais](##Parcerias-principais)
+	8. [Recursos príncipais](##Recursos-príncipais)
+	9. [Estrutra de custos](##Estrutra-de-custos)
+	10. [Fontes de receita](##Fontes-de-receita)
 10. [Design](#Design)
-	1. [Tipografia](##Tipografia)
-	2. [Logo](##Logo)
-	3. [Prototipo](##Prototipo)
+	1. [Paleta de cores](#paleta-de-cores)
+	2. [Tipografia](##Tipografia)
+	3. [Logo](##Logo)
+	4. [Prototipo](##Prototipo)
 11. [Considerações finais](#Considerações-finais)
 # Introdução
 Devido ao cenário de atendimento a clínica de microfisioterapia, desenvolvemos esta solução para o auxilio e melhor atendimento dos pacientes, facilitar o registro de usuários e um método de agendamento para os pacientes que precisam de atendimento microfisioterapeuta. O foco deste projeto é um melhor o atendimento dos pacientes, garantir que os dados que serão registrados pelo médico estejam em segurança e sigilo, e um método mais prático de agendamento e consulta para os usuários. Dessa forma, busca-se maior organização, praticidade e acessibilidade para o profissional no acompanhamento dos pacientes.
@@ -135,6 +137,8 @@ A viabilidade operacional do projeto envolveu a analisar as condições prática
 ## Conclusão do estudo de viabilidade
 O estudo de viabilidade do projeto demonstrou que a plataforma é viável tanto tecnicamente quanto operacionalmente. A necessidade de haver uma plataforma que informatize sobre microfisioterapia, e seus benefícios, onde o usuário possa ser capaz de agendar consulta nos dias disponíveis, e ser possível para o médico especializado registrar o formulário dos pacientes, sendo possível edita-los e excluí-los de acordo com a consulta. A infraestrutura fornecida pela Fatec-Jahu e o uso de ferramentas gratuitas garantem a execução do projeto dentro dos recursos disponíveis. Além, de ser um projeto de natureza educacional, não exige investimentos financeiros. Resumindo o projeto, existem condições de ser desenvolvido e gerar um impacto positivo para os futuros usuários da cidade de Jahu.
 # Regra de negócio
+## Modelo de negócio
+![Modelo](readme/modelo-canva.jpeg)
 ## Proposta de valor
 Será desenvolvida uma plataforma informativa e interativa de atendimento clínico, promovendo a informatização da microfisioterapia e facilitando o agendamento de consultas de acordo com os sintomas dos usuários.
 ## Segmento de Clientes
@@ -154,6 +158,8 @@ Não haverá custos, pois o sistema será desenvolvido pelos alunos.
 ## Fontes de receita
 Não haverá receita, pois é um projeto acadêmico.
 # Design
+## Paleta de cores
+![paleta de cores](readme/cores.jpeg)
 ## Tipografia
 A família de fontes utilizada é "Nunito", Arial, Helvetica, sans-serif.
 ## Logo
